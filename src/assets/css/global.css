@@ -1,0 +1,77 @@
+/* Global Style */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: var(--font-size-md);
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: var(--font-family);
+	background-color: var(--background-color);
+	color: var(--text-color);
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
+	transition: background-color var(--transition-duration),
+		color var(--transition-duration);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--primary-color);
+	margin-bottom: 0.5em;
+}
+
+p {
+	margin-bottom: 1em;
+	color: var(--text-light-color);
+}
+
+a {
+	color: var(--accent-color);
+	text-decoration: none;
+	transition: color var(--transition-duration);
+}
+
+a:hover {
+	color: var(--secondary-color);
+}
+
+button {
+	background-color: var(--primary-color);
+	color: var(--background-color);
+	border: none;
+	padding: 0.5em 1em;
+	border-radius: var(--border-radius);
+	cursor: pointer;
+	transition: background-color var(--transition-duration);
+}
+
+button:hover {
+	background-color: var(--secondary-color);
+}
+
+input,
+textarea {
+	border: 1px solid #ccc;
+	padding: 0.5em;
+	border-radius: var(--border-radius);
+	width: 100%;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 1em;
+}

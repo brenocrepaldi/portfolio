@@ -1,0 +1,20 @@
+/* variables.css */
+
+/* Variables */
+:root {
+	--primary-color: #dde0e1; 
+	--secondary-color: #2980b9; 
+	--accent-color: #3498db; 
+	--background-color: #1f2831;
+	--text-color: #2c2c2c; 
+	--text-light-color: #7f8c8d; 
+
+	--font-family: "Inter", sans-serif;
+	--font-size-lg: 24px;
+	--font-size-md: 16px;
+	--font-size-sm: 12px;
+
+	--border-radius: 5px;
+	--box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	--transition-duration: 0.3s;
+}

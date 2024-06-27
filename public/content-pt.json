@@ -1,0 +1,39 @@
+{
+	"navbar": ["Sobre", "Experiência", "Projetos", "Contatos"],
+	"about": {
+		"title": "Sobre Mim",
+		"description": "Sou um desenvolvedor de software com paixão por criar soluções inovadoras. Tenho experiência em diversas tecnologias e sempre busco aprender mais."
+	},
+	"experience": {
+		"title": "Experiência",
+		"jobs": [
+			{
+				"company": "Espectro LTDA",
+				"position": "Desenvolvedor Front-End",
+				"duration": "Mai 2024 - Atual",
+				"description": "Desenvolvimento de aplicações web utilizando React e Redux."
+			}
+		]
+	},
+	"projects": {
+		"title": "Projetos",
+		"list": [
+			{
+				"name": "Projeto 1",
+				"description": "Um aplicativo de gerenciamento de tarefas desenvolvido com React e Firebase.",
+				"url": "https://github.com/seuusuario/projeto1"
+			},
+			{
+				"name": "Projeto 2",
+				"description": "Uma plataforma de e-commerce construída com Node.js, Express e MongoDB.",
+				"url": "https://github.com/seuusuario/projeto2"
+			}
+		]
+	},
+	"contacts": {
+		"title": "Contatos",
+		"email": "seuemail@example.com",
+		"linkedin": "https://www.linkedin.com/in/seuusuario",
+		"github": "https://github.com/seuusuario"
+	}
+}
