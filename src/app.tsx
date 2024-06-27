@@ -1,12 +1,16 @@
 import { useEffect, useState } from "react";
-import { Navbar } from "./components/navbar/Navbar";
-import { Content } from "./types"; // Importando os tipos
-import { LanguageDropdown } from "./components/language-dropdown/LanguageDropdown";
+import { ContentProps } from "./types"; // Importando os tipos
+
+import { Header } from "./components/header/Header";
+import { About } from "./components/about/About";
+import { Experience } from "./components/experience/Experience";
+import { Projects } from "./components/projects/Projects";
+import { Contact } from "./components/contact/Contact";
 
 import "./app.css";
 
 export function App() {
-	const [content, setContent] = useState<Content | null>(null);
+	const [content, setContent] = useState<ContentProps | null>(null);
 	const [language, setLanguage] = useState("en"); // ou 'pt' para português
 
 	useEffect(() => {
@@ -15,7 +19,7 @@ export function App() {
 				const contentFile =
 					language === "pt" ? "/content-pt.json" : "/content-en.json";
 				const response = await fetch(contentFile);
-				const data: Content = await response.json();
+				const data: ContentProps = await response.json();
 				setContent(data);
 			} catch (error) {
 				console.error("Error loading content:", error);
@@ -28,25 +32,35 @@ export function App() {
 		setLanguage(lang);
 	};
 
-	return (
-		<div className="App">
-			{content && (
-				<header style={{ display: "flex" }}>
-					<Navbar items={content.navbar} />
-					<LanguageDropdown
-						language={language}
-						onLanguageChange={handleLanguageChange}
+	if (content) {
+		return (
+			<div className="App">
+				<Header
+					navbarItems={content.navbar}
+					language={language}
+					onLanguageChange={handleLanguageChange}
+				/>
+				<main>
+					<About
+						title={content.about.title}
+						description={content.about.description}
 					/>
-				</header>
-			)}
-			<main>
-				{content && (
-					<div>
-						<h2>{content.about.title}</h2>
-						<p>{content.about.description}</p>
-					</div>
-				)}
-			</main>
-		</div>
-	);
+					<Experience
+						title={content.experience.title}
+						jobs={content.experience.jobs}
+					/>
+					<Projects
+						title={content.projects.title}
+						list={content.projects.list}
+					/>
+					<Contact
+						title={content.contacts.title}
+						email={content.contacts.email}
+						linkedin={content.contacts.linkedin}
+						github={content.contacts.github}
+					/>
+				</main>
+			</div>
+		);
+	}
 }

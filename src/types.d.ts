@@ -1,36 +1,42 @@
-export interface Job {
+export interface AboutProps {
+	title: string;
+	description: string;
+}
+
+export interface JobProps {
 	company: string;
 	position: string;
 	duration: string;
 	description: string;
 }
 
-export interface Project {
+export interface ExperienceProps {
+	title: string;
+	jobs: Job[];
+}
+
+export interface ProjectItemProps {
 	name: string;
 	description: string;
 	url: string;
 }
 
-export interface Contacts {
+export interface ProjectsProps {
+	title: string;
+	list: projects[];
+}
+
+export interface ContactsProps {
 	title: string;
 	email: string;
 	linkedin: string;
 	github: string;
 }
 
-export interface Content {
+export interface ContentProps {
 	navbar: string[];
-	about: {
-		title: string;
-		description: string;
-	};
-	experience: {
-		title: string;
-		jobs: Job[];
-	};
-	projects: {
-		title: string;
-		list: Project[];
-	};
-	contacts: Contacts;
+	about: AboutProps;
+	experience: ExperienceProps;
+	projects: ProjectsProps;
+	contacts: ContactsProps;
 }
