@@ -6,12 +6,15 @@
 		"Projetos",
 		"Contatos"
 	],
-	"landing-page": {
+	"landing": {
 		"title": "Olá, meu nome é Breno Crepaldi",
 		"subtitle": "Desenvolvedor Front-End",
-		"resume": "",
+		"resume": {
+			"resumeTitle": "Baixe meu CV",
+			"link": ""
+		},
 		"contact": {
-			"title": "Entrar em contato",
+			"contactTitle": "Entrar em contato",
 			"link": ""
 		}
 	},

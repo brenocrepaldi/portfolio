@@ -1,11 +1,14 @@
 {
 	"navbar": ["About Me", "Experience", "Skills", "Projects", "Contacts"],
-	"landing-page": {
-		"title": "Hello, my name is Breno Crepaldi",
+	"landing": {
+		"title": "Hello, I'm Breno Crepaldi",
 		"subtitle": "Front-End Developer",
-		"resume": "",
+		"resume": {
+			"resumeTitle": "Download my CV",
+			"link": ""
+		},
 		"contact": {
-			"title": "Get in Touch",
+			"contactTitle": "Get in Touch",
 			"link": ""
 		}
 	},

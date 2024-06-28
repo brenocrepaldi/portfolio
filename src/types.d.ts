@@ -1,3 +1,20 @@
+interface LandingPageResumeProps {
+	resumeTitle: string;
+	link: string;
+}
+
+interface LandingPageContactProps {
+	contactTitle: string;
+	link: string;
+}
+
+export interface LandingPageProps {
+	title: string;
+	subtitle: string;
+	resume: LandingPageResumeProps;
+	contact: LandingPageContactProps;
+}
+
 export interface AboutProps {
 	title: string;
 	description: string;
@@ -35,6 +52,7 @@ export interface ContactsProps {
 
 export interface ContentProps {
 	navbar: string[];
+	landing: LandingPageProps;
 	about: AboutProps;
 	experience: ExperienceProps;
 	projects: ProjectsProps;

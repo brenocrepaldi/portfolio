@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { ContentProps } from "./types"; // Importando os tipos
 
 import { Header } from "./components/header/Header";
+import { LandingPage } from "./components/landing-page/LandingPage";
 import { About } from "./components/about/About";
 import { Experience } from "./components/experience/Experience";
 import { Projects } from "./components/projects/Projects";
@@ -41,6 +42,12 @@ export function App() {
 					onLanguageChange={handleLanguageChange}
 				/>
 				<main>
+					<LandingPage
+						title={content.landing.title}
+						subtitle={content.landing.subtitle}
+						resume={content.landing.resume}
+						contact={content.landing.contact}
+					/>
 					<About
 						title={content.about.title}
 						description={content.about.description}
