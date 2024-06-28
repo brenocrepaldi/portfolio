@@ -15,10 +15,7 @@ export function Header({
 	return (
 		<header style={{ padding: "40px" }}>
 			<Navbar items={navbarItems} />
-			<LanguageRadio
-				language={language}
-				onLanguageChange={onLanguageChange}
-			/>
+			<LanguageRadio language={language} onLanguageChange={onLanguageChange} />
 		</header>
 	);
 }

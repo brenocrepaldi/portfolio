@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { CSSTransition, TransitionGroup } from "react-transition-group";
 import { ContentProps } from "./types"; // Importando os tipos
 
 import { Header } from "./components/header/Header";
@@ -43,33 +44,37 @@ export function App() {
 					language={language}
 					onLanguageChange={handleLanguageChange}
 				/>
-				<main>
-					<LandingPage
-						title={content.landing.title}
-						name={content.landing.name}
-						subtitle={content.landing.subtitle}
-						resume={content.landing.resume}
-						contact={content.landing.contact}
-					/>
-					<About
-						title={content.about.title}
-						description={content.about.description}
-					/>
-					<Experience
-						title={content.experience.title}
-						jobs={content.experience.jobs}
-					/>
-					<Projects
-						title={content.projects.title}
-						list={content.projects.list}
-					/>
-					<Contact
-						title={content.contacts.title}
-						email={content.contacts.email}
-						linkedin={content.contacts.linkedin}
-						github={content.contacts.github}
-					/>
-				</main>
+				<TransitionGroup>
+					<CSSTransition key={language} timeout={500} classNames="fade">
+						<main>
+							<LandingPage
+								title={content.landing.title}
+								name={content.landing.name}
+								subtitle={content.landing.subtitle}
+								resume={content.landing.resume}
+								contact={content.landing.contact}
+							/>
+							<About
+								title={content.about.title}
+								description={content.about.description}
+							/>
+							<Experience
+								title={content.experience.title}
+								jobs={content.experience.jobs}
+							/>
+							<Projects
+								title={content.projects.title}
+								list={content.projects.list}
+							/>
+							<Contact
+								title={content.contacts.title}
+								email={content.contacts.email}
+								linkedin={content.contacts.linkedin}
+								github={content.contacts.github}
+							/>
+						</main>
+					</CSSTransition>
+				</TransitionGroup>
 			</div>
 		);
 	}
