@@ -7,7 +7,8 @@
 		"Contatos"
 	],
 	"landing": {
-		"title": "Olá, meu nome é Breno Crepaldi",
+		"title": "Olá, meu nome é",
+		"name": "Breno Crepaldi",
 		"subtitle": "Desenvolvedor Front-End",
 		"resume": {
 			"resumeTitle": "Baixe meu CV",
@@ -23,7 +24,7 @@
 		"description": "Sou um desenvolvedor de software com paixão por criar soluções inovadoras. Tenho experiência em diversas tecnologias e sempre busco aprender mais."
 	},
 	"experience": {
-		"title": "Experiência Profissional",
+		"title": "Experiência",
 		"jobs": [
 			{
 				"company": "Espectro LTDA",

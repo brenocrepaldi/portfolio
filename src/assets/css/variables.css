@@ -2,12 +2,12 @@
 
 /* Variables */
 :root {
-	--primary-color: #dde0e1; 
-	--secondary-color: #2980b9; 
-	--accent-color: #3498db; 
+	--primary-color: #dde0e1;
+	--secondary-color: #2980b9;
+	--accent-color: #3498db;
 	--background-color: #1f2831;
-	--text-color: #2c2c2c; 
-	--text-light-color: #7f8c8d; 
+	--text-color: #2c2c2c;
+	--text-light-color: #7f8c8d;
 
 	--font-family: "Inter", sans-serif;
 	--font-size-lg: 24px;

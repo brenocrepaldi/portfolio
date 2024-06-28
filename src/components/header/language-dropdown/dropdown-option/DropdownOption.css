@@ -4,6 +4,6 @@
 }
 
 .dropdown-option:hover {
-	background-color: #394654;
-	color: #fff;
+	background-color: var(--background-color);
+	color: var(--primary-color);
 }

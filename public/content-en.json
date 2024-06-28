@@ -1,7 +1,8 @@
 {
 	"navbar": ["About Me", "Experience", "Skills", "Projects", "Contacts"],
 	"landing": {
-		"title": "Hello, I'm Breno Crepaldi",
+		"title": "Hello, I'm",
+		"name": "Breno Crepaldi",
 		"subtitle": "Front-End Developer",
 		"resume": {
 			"resumeTitle": "Download my CV",
@@ -17,10 +18,10 @@
 		"description": "I am a software developer passionate about creating innovative solutions. I have experience with various technologies and always strive to learn more."
 	},
 	"experience": {
-		"title": "Professional Experience",
+		"title": "Experience",
 		"jobs": [
 			{
-				"company": "Espectro Ltd.",
+				"company": "Espectro LTD",
 				"position": "Front-End Developer",
 				"duration": "May 2024 - Present",
 				"description": "Developing web applications using React and Redux."

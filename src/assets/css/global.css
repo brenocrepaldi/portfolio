@@ -30,11 +30,9 @@ h4,
 h5,
 h6 {
 	color: var(--primary-color);
-	margin-bottom: 0.5em;
 }
 
 p {
-	margin-bottom: 1em;
 	color: var(--text-light-color);
 }
 
@@ -47,7 +45,7 @@ a {
 a:hover {
 	color: var(--secondary-color);
 }
-
+/* 
 button {
 	background-color: var(--primary-color);
 	color: var(--background-color);
@@ -60,7 +58,7 @@ button {
 
 button:hover {
 	background-color: var(--secondary-color);
-}
+} */
 
 input,
 textarea {

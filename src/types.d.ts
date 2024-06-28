@@ -10,6 +10,7 @@ interface LandingPageContactProps {
 
 export interface LandingPageProps {
 	title: string;
+	name: string;
 	subtitle: string;
 	resume: LandingPageResumeProps;
 	contact: LandingPageContactProps;

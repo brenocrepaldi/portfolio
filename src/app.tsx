@@ -8,6 +8,8 @@ import { Experience } from "./components/experience/Experience";
 import { Projects } from "./components/projects/Projects";
 import { Contact } from "./components/contact/Contact";
 
+import "./assets/css/global.css";
+import "./assets/css/variables.css";
 import "./app.css";
 
 export function App() {
@@ -44,6 +46,7 @@ export function App() {
 				<main>
 					<LandingPage
 						title={content.landing.title}
+						name={content.landing.name}
 						subtitle={content.landing.subtitle}
 						resume={content.landing.resume}
 						contact={content.landing.contact}
