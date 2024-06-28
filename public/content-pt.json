@@ -1,5 +1,20 @@
 {
-	"navbar": ["Sobre", "Experiência", "Projetos", "Contatos"],
+	"navbar": [
+		"Sobre Mim",
+		"Experiência",
+		"Conhecimentos",
+		"Projetos",
+		"Contatos"
+	],
+	"landing-page": {
+		"title": "Olá, meu nome é Breno Crepaldi",
+		"subtitle": "Desenvolvedor Front-End",
+		"resume": "",
+		"contact": {
+			"title": "Entrar em contato",
+			"link": ""
+		}
+	},
 	"about": {
 		"title": "Sobre Mim",
 		"description": "Sou um desenvolvedor de software com paixão por criar soluções inovadoras. Tenho experiência em diversas tecnologias e sempre busco aprender mais."
@@ -15,8 +30,8 @@
 			}
 		]
 	},
-	"technicalSkills": {
-		"title": "Habilidades Técnicas",
+	"skills": {
+		"title": "Habilidades",
 		"list": [
 			"React",
 			"Redux",
@@ -26,16 +41,6 @@
 			"Express.js",
 			"Mongoose",
 			"Firebase"
-		]
-	},
-	"education": {
-		"title": "Formação Acadêmica",
-		"list": [
-			{
-				"institution": "Universidade X",
-				"degree": "Bacharelado em Ciência da Computação",
-				"duration": "2018 - 2022"
-			}
 		]
 	},
 	"projects": {
@@ -58,18 +63,5 @@
 		"email": "seuemail@example.com",
 		"linkedin": "https://www.linkedin.com/in/seuusuario",
 		"github": "https://github.com/seuusuario"
-	},
-	"languages": {
-		"title": "Idiomas",
-		"list": [
-			{
-				"name": "Português",
-				"proficiency": "Nativo"
-			},
-			{
-				"name": "Inglês",
-				"proficiency": "Avançado"
-			}
-		]
 	}
 }

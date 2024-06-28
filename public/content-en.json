@@ -1,5 +1,14 @@
 {
-	"navbar": ["About", "Experience", "Projects", "Contacts"],
+	"navbar": ["About Me", "Experience", "Skills", "Projects", "Contacts"],
+	"landing-page": {
+		"title": "Hello, my name is Breno Crepaldi",
+		"subtitle": "Front-End Developer",
+		"resume": "",
+		"contact": {
+			"title": "Get in Touch",
+			"link": ""
+		}
+	},
 	"about": {
 		"title": "About Me",
 		"description": "I am a software developer passionate about creating innovative solutions. I have experience with various technologies and always strive to learn more."
@@ -15,8 +24,8 @@
 			}
 		]
 	},
-	"technicalSkills": {
-		"title": "Technical Skills",
+	"skills": {
+		"title": "Skills",
 		"list": [
 			"React",
 			"Redux",
@@ -26,16 +35,6 @@
 			"Express.js",
 			"Mongoose",
 			"Firebase"
-		]
-	},
-	"education": {
-		"title": "Education",
-		"list": [
-			{
-				"institution": "University X",
-				"degree": "Bachelor of Science in Computer Science",
-				"duration": "2018 - 2022"
-			}
 		]
 	},
 	"projects": {
@@ -58,18 +57,5 @@
 		"email": "youremail@example.com",
 		"linkedin": "https://www.linkedin.com/in/yourusername",
 		"github": "https://github.com/yourusername"
-	},
-	"languages": {
-		"title": "Languages",
-		"list": [
-			{
-				"name": "Portuguese",
-				"proficiency": "Native"
-			},
-			{
-				"name": "English",
-				"proficiency": "Advanced"
-			}
-		]
 	}
 }
