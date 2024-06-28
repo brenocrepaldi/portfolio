@@ -60,13 +60,13 @@ button:hover {
 	background-color: var(--secondary-color);
 } */
 
-input,
+/* input,
 textarea {
 	border: 1px solid #ccc;
 	padding: 0.5em;
 	border-radius: var(--border-radius);
 	width: 100%;
-}
+} */
 
 .container {
 	max-width: 1200px;

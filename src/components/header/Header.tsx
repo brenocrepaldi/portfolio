@@ -1,5 +1,5 @@
 import { Navbar } from "./navbar/Navbar";
-import { LanguageDropdown } from "./language-dropdown/LanguageDropdown";
+import { LanguageRadio } from "./language-radio/LanguageRadio";
 
 interface HeaderProps {
 	navbarItems: string[];
@@ -13,9 +13,9 @@ export function Header({
 	onLanguageChange,
 }: HeaderProps) {
 	return (
-		<header style={{ display: "flex" }}>
+		<header style={{ padding: "40px" }}>
 			<Navbar items={navbarItems} />
-			<LanguageDropdown
+			<LanguageRadio
 				language={language}
 				onLanguageChange={onLanguageChange}
 			/>

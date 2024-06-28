@@ -11,5 +11,5 @@ export function Navbar({ items }: NavbarProps) {
 		</a> // fix the href - it's getting both languages
 	));
 
-	return <nav className="container">{navItems}</nav>;
+	return <nav className="navbar-container">{navItems}</nav>;
 }
