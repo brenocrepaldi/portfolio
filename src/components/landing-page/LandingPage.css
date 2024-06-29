@@ -17,7 +17,8 @@ h1 {
 	margin: -35px 0px;
 }
 
-h2, .subtitle {
+h2,
+.subtitle {
 	font-size: 1.6em;
 	color: var(--text-light-color);
 }
@@ -28,6 +29,7 @@ h2, .subtitle {
 }
 
 .contact-animated-button {
+	text-decoration: none;
 	position: relative;
 	display: inline-block;
 	padding: 12px 24px;

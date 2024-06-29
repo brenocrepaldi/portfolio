@@ -18,10 +18,10 @@ export function LandingPage({
 					<h2 className="subtitle">{subtitle}</h2>
 				</div>
 				<div className="landing-page-links">
-					<button className="contact-animated-button">
+					<a href="#contact" className="contact-animated-button">
 						<span>{contact.contactTitle}</span>
 						<span></span>
-					</button>
+					</a>
 					<button className="resume-animated-button">
 						<span>{resume.resumeTitle}</span>
 						<span></span>
