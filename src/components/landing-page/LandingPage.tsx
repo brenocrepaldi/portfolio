@@ -10,7 +10,7 @@ export function LandingPage({
 	contact,
 }: LandingPageProps) {
 	return (
-		<section className="landing-page-container">
+		<section id="home" className="landing-page-container">
 			<div className="landing-page-content">
 				<div className="landing-page-header">
 					<h2 className="subtitle">{title}</h2>

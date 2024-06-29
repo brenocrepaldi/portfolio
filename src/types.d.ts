@@ -21,6 +21,11 @@ export interface AboutProps {
 	description: string;
 }
 
+export interface SkillsProps {
+	title: string;
+	list: [];
+}
+
 export interface JobProps {
 	company: string;
 	position: string;
@@ -55,6 +60,7 @@ export interface ContentProps {
 	navbar: string[];
 	landing: LandingPageProps;
 	about: AboutProps;
+	skills: SkillsProps;
 	experience: ExperienceProps;
 	projects: ProjectsProps;
 	contacts: ContactsProps;

@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
-import { ContentProps } from "./types"; // Importando os tipos
+import { ContentProps } from "./types";
 
 import { Header } from "./components/header/Header";
 import { LandingPage } from "./components/landing-page/LandingPage";
 import { About } from "./components/about/About";
+import { Skills } from "./components/skills/Skills";
 import { Experience } from "./components/experience/Experience";
 import { Projects } from "./components/projects/Projects";
 import { Contact } from "./components/contact/Contact";
@@ -15,7 +16,7 @@ import "./app.css";
 
 export function App() {
 	const [content, setContent] = useState<ContentProps | null>(null);
-	const [language, setLanguage] = useState("en"); // ou 'pt' para português
+	const [language, setLanguage] = useState("en");
 
 	useEffect(() => {
 		const loadContent = async () => {
@@ -58,6 +59,7 @@ export function App() {
 								title={content.about.title}
 								description={content.about.description}
 							/>
+							<Skills title={content.skills.title} list={content.skills.list} />
 							<Experience
 								title={content.experience.title}
 								jobs={content.experience.jobs}

@@ -2,7 +2,7 @@ import { ExperienceProps, JobProps } from "../../types";
 
 export function Experience({ title, jobs }: ExperienceProps) {
 	return (
-		<section>
+		<section id="experience">
 			<h2>{title}</h2>
 			<ul>
 				{jobs.map((job: JobProps, index: number) => (

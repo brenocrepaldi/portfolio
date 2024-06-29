@@ -2,7 +2,7 @@ import { ProjectsProps, ProjectItemProps } from "../../types";
 
 export function Projects({ title, list }: ProjectsProps) {
 	return (
-		<section>
+		<section id="projects">
 			<h2>{title}</h2>
 			<ul>
 				{list.map((project: ProjectItemProps, index: number) => (

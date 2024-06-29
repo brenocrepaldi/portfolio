@@ -2,7 +2,7 @@ import { ContactsProps } from "../../types";
 
 export function Contact({ title, email, linkedin, github }: ContactsProps) {
 	return (
-		<section>
+		<section id="contact">
 			<h2>{title}</h2>
 			<p>
 				<strong>Email:</strong> <a href={`mailto:${email}`}>{email}</a>

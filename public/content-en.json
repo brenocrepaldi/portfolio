@@ -1,5 +1,5 @@
 {
-	"navbar": ["About Me", "Experience", "Skills", "Projects", "Contacts"],
+	"navbar": ["About Me", "Experience", "Skills", "Projects", "Contact"],
 	"landing": {
 		"title": "Hello, I'm",
 		"name": "Breno Crepaldi",
