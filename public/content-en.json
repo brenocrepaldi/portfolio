@@ -1,5 +1,26 @@
 {
-	"navbar": ["About Me", "Experience", "Skills", "Projects", "Contact"],
+	"navbar": [
+		{
+			"title": "About Me",
+			"href": "about"
+		},
+		{
+			"title": "Experience",
+			"href": "experience"
+		},
+		{
+			"title": "Skills",
+			"href": "skills"
+		},
+		{
+			"title": "Projects",
+			"href": "projects"
+		},
+		{
+			"title": "Contact",
+			"href": "contact"
+		}
+	],
 	"landing": {
 		"title": "Hello, I'm",
 		"name": "Breno Crepaldi",

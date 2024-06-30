@@ -1,14 +1,12 @@
+import { NavbarProps } from "../../../types"; // Correct the import path
+
 import "./Navbar.css";
 
-interface NavbarProps {
-	items: string[];
-}
-
-export function Navbar({ items }: NavbarProps) {
-	const navItems = items.map((item, index) => (
-		<a key={index} href={`#${item.toLowerCase()}`} className="navbar-item">
-			{item}
-		</a> // fix the href - it's getting both languages
+export function Navbar({ navbar }: { navbar: NavbarProps[] }) {
+	const navItems = navbar.map((item, index) => (
+		<a key={index} href={`#${item.href}`} className="navbar-item">
+			{item.title}
+		</a>
 	));
 
 	return <nav className="navbar-container">{navItems}</nav>;

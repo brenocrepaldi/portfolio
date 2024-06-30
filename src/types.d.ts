@@ -1,3 +1,8 @@
+export interface NavbarProps {
+	title: string;
+	href: string;
+}
+
 interface LandingPageResumeProps {
 	resumeTitle: string;
 	link: string;
@@ -46,7 +51,7 @@ export interface ProjectItemProps {
 
 export interface ProjectsProps {
 	title: string;
-	list: projects[];
+	list: ProjectItemProps[];
 }
 
 export interface ContactsProps {
@@ -57,7 +62,7 @@ export interface ContactsProps {
 }
 
 export interface ContentProps {
-	navbar: string[];
+	navbar: NavbarProps[];
 	landing: LandingPageProps;
 	about: AboutProps;
 	skills: SkillsProps;

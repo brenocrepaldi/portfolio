@@ -1,10 +1,25 @@
 {
 	"navbar": [
-		"Sobre Mim",
-		"Experiência",
-		"Conhecimentos",
-		"Projetos",
-		"Contatos"
+		{
+			"title": "Sobre Mim",
+			"href": "about"
+		},
+		{
+			"title": "Experiência",
+			"href": "experience"
+		},
+		{
+			"title": "Conhecimentos",
+			"href": "skills"
+		},
+		{
+			"title": "Projetos",
+			"href": "projects"
+		},
+		{
+			"title": "Contatos",
+			"href": "contact"
+		}
 	],
 	"landing": {
 		"title": "Olá, meu nome é",
