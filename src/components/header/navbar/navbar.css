@@ -3,29 +3,36 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: 80px;
-	flex-wrap: wrap; /* Ensures items wrap on smaller screens */
+	gap: 100px;
+}
+
+a {
+	text-decoration: none;
 }
 
 .navbar-item {
 	text-decoration: none;
-	color: inherit; /* Ensure text inherits color from parent */
-	font-size: 1rem; /* Adjust font size for better readability */
+	font-size: 1.1rem;
+	transition: all 400ms ease-in-out;
+}
+
+.navbar-item:hover {
+	color: #c8cdcd;
 }
 
 @media (max-width: 768px) {
 	.navbar-container {
-		gap: 40px; /* Reduce gap for medium screens */
+		gap: 40px;
 	}
 }
 
 @media (max-width: 480px) {
 	.navbar-container {
-		flex-direction: column; /* Stack items vertically on small screens */
-		gap: 20px; /* Further reduce gap for small screens */
+		flex-direction: column;
+		gap: 20px;
 	}
 
 	.navbar-item {
-		font-size: 0.9rem; /* Adjust font size for small screens */
+		font-size: 0.9rem;
 	}
 }
