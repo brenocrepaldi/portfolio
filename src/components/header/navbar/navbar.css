@@ -3,5 +3,29 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: 150px;
+	gap: 80px;
+	flex-wrap: wrap; /* Ensures items wrap on smaller screens */
+}
+
+.navbar-item {
+	text-decoration: none;
+	color: inherit; /* Ensure text inherits color from parent */
+	font-size: 1rem; /* Adjust font size for better readability */
+}
+
+@media (max-width: 768px) {
+	.navbar-container {
+		gap: 40px; /* Reduce gap for medium screens */
+	}
+}
+
+@media (max-width: 480px) {
+	.navbar-container {
+		flex-direction: column; /* Stack items vertically on small screens */
+		gap: 20px; /* Further reduce gap for small screens */
+	}
+
+	.navbar-item {
+		font-size: 0.9rem; /* Adjust font size for small screens */
+	}
 }

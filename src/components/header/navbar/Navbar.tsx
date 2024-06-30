@@ -1,11 +1,11 @@
-import { NavbarProps } from "../../../types"; // Correct the import path
+import { NavbarProps } from "../../../types";
 
 import "./Navbar.css";
 
 export function Navbar({ navbar }: { navbar: NavbarProps[] }) {
-	const navItems = navbar.map((item, index) => (
-		<a key={index} href={`#${item.href}`} className="navbar-item">
-			{item.title}
+	const navItems = navbar.map(({ href, title }, index) => (
+		<a key={index} href={`#${href}`} className="navbar-item">
+			<p>{title}</p>
 		</a>
 	));
 
