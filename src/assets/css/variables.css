@@ -6,6 +6,8 @@
 	--secondary-color: #2980b9;
 	--accent-color: #3498db;
 	--background-color: #1f2831;
+	--light-background-color: #232d37;
+	--shadow: #12161bcc;
 	--text-color: #2c2c2c;
 	--text-light-color: #7f8c8d;
 
@@ -15,6 +17,6 @@
 	--font-size-sm: 12px;
 
 	--border-radius: 5px;
-	--box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	--box-shadow: 0 4px 6px var(--shadow);
 	--transition-duration: 0.3s;
 }

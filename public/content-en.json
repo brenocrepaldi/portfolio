@@ -52,14 +52,35 @@
 	"skills": {
 		"title": "Skills",
 		"list": [
-			"React",
-			"Redux",
-			"Node.js",
-			"JavaScript",
-			"HTML/CSS",
-			"Express.js",
-			"Mongoose",
-			"Firebase"
+			{
+				"name": "React",
+				"icon": "faReact"
+			},
+
+			{
+				"name": "JavaScript",
+				"icon": "faJs"
+			},
+			{
+				"name": "HTML",
+				"icon": "faHtml5"
+			},
+			{
+				"name": "CSS",
+				"icon": "faCss3Alt"
+			},
+			{
+				"name": "Node.js",
+				"icon": "faNodeJs"
+			},
+			{
+				"name": "Python",
+				"icon": "faPython"
+			},
+			{
+				"name": "SQL",
+				"icon": "faDatabase"
+			}
 		]
 	},
 	"projects": {

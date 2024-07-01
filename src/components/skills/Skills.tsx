@@ -1,18 +1,13 @@
+import { SkillList } from "./skill-list/SkillList";
+
 import { SkillsProps } from "../../types";
+import "./Skills.css";
 
 export function Skills({ title, list }: SkillsProps) {
 	return (
-		<section id="skills">
+		<section id="skills" className="skills-container">
 			<h2>{title}</h2>
-			<ul>
-				{list.map((item) => {
-					return (
-						<li>
-							<p>{item}</p>
-						</li>
-					);
-				})}
-			</ul>
+			<SkillList title={title} list={list} />
 		</section>
 	);
 }
