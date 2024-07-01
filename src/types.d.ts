@@ -26,14 +26,18 @@ export interface AboutProps {
 	description: string;
 }
 
-export interface SkillList {
+export interface SkillListProps {
 	name: string;
 	icon: string;
 }
 
+export interface SkillSet {
+	skillList: SkillListProps[];
+}
+
 export interface SkillsProps {
 	title: string;
-	list: SkillList[];
+	skillSet: SkillSet;
 }
 
 export interface JobProps {

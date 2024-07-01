@@ -3,11 +3,11 @@ import { SkillList } from "./skill-list/SkillList";
 import { SkillsProps } from "../../types";
 import "./Skills.css";
 
-export function Skills({ title, list }: SkillsProps) {
+export function Skills({ title, skillSet }: SkillsProps) {
 	return (
 		<section id="skills" className="skills-container">
 			<h2>{title}</h2>
-			<SkillList title={title} list={list} />
+			<SkillList skillList={skillSet.skillList} />
 		</section>
 	);
 }

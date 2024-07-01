@@ -51,37 +51,39 @@
 	},
 	"skills": {
 		"title": "Skills",
-		"list": [
-			{
-				"name": "React",
-				"icon": "faReact"
-			},
+		"skillSet": {
+			"skillList": [
+				{
+					"name": "React",
+					"icon": "faReact"
+				},
 
-			{
-				"name": "JavaScript",
-				"icon": "faJs"
-			},
-			{
-				"name": "HTML",
-				"icon": "faHtml5"
-			},
-			{
-				"name": "CSS",
-				"icon": "faCss3Alt"
-			},
-			{
-				"name": "Node.js",
-				"icon": "faNodeJs"
-			},
-			{
-				"name": "Python",
-				"icon": "faPython"
-			},
-			{
-				"name": "SQL",
-				"icon": "faDatabase"
-			}
-		]
+				{
+					"name": "JavaScript",
+					"icon": "faJs"
+				},
+				{
+					"name": "HTML",
+					"icon": "faHtml5"
+				},
+				{
+					"name": "CSS",
+					"icon": "faCss3Alt"
+				},
+				{
+					"name": "Node.js",
+					"icon": "faNodeJs"
+				},
+				{
+					"name": "Python",
+					"icon": "faPython"
+				},
+				{
+					"name": "SQL",
+					"icon": "faDatabase"
+				}
+			]
+		}
 	},
 	"projects": {
 		"title": "Projects",

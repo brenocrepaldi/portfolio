@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
-import { ContentProps } from "./types";
 
 import { Header } from "./components/header/Header";
 import { LandingPage } from "./components/landing-page/LandingPage";
@@ -10,9 +9,7 @@ import { Experience } from "./components/experience/Experience";
 import { Projects } from "./components/projects/Projects";
 import { Contact } from "./components/contact/Contact";
 
-import "./assets/css/global.css";
-import "./assets/css/variables.css";
-import "./app.css";
+import { ContentProps } from "./types";
 
 export function App() {
 	const [content, setContent] = useState<ContentProps | null>(null);
@@ -59,7 +56,10 @@ export function App() {
 								title={content.about.title}
 								description={content.about.description}
 							/>
-							<Skills title={content.skills.title} list={content.skills.list} />
+							<Skills
+								title={content.skills.title}
+								skillSet={content.skills.skillSet}
+							/>
 							<Experience
 								title={content.experience.title}
 								jobs={content.experience.jobs}

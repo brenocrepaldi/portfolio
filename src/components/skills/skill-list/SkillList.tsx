@@ -10,12 +10,12 @@ import {
 import { faCss3Alt } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 
-import { SkillsProps } from "../../../types";
+import { SkillSet } from "../../../types";
+import "./SkillList.css";
+
 interface IconMap {
 	[key: string]: IconDefinition;
 }
-
-import "./SkillList.css";
 
 const icons: IconMap = {
 	faReact: faReact,
@@ -27,11 +27,11 @@ const icons: IconMap = {
 	faDatabase: faDatabase,
 };
 
-export function SkillList({ title, list }: SkillsProps) {
+export function SkillList({ skillList }: SkillSet) {
 	return (
 		<ul className="skills-list">
-			{list.map((item) => (
-				<li key={title}>
+			{skillList.map((item, index) => (
+				<li key={`${item.name}-${index}`}>
 					<div className="button-container">
 						<button className="button skill">
 							<div className="skill-logo">
