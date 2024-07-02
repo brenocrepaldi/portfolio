@@ -1,11 +1,11 @@
 .radio-inputs {
-	position: absolute;
+	position: fixed;
 	top: 35px;
 	right: 20px;
 	display: flex;
 	flex-wrap: wrap;
 	border-radius: 0.5rem;
-	background-color: var(--text-light-color);
+	background-color: #7f8c8da2;
 	box-sizing: border-box;
 	box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
 	padding: 0.25rem;

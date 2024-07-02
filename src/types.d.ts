@@ -45,11 +45,12 @@ export interface JobProps {
 	position: string;
 	duration: string;
 	description: string;
+	technologies: string[];
 }
 
 export interface ExperienceProps {
 	title: string;
-	jobs: Job[];
+	jobs: JobProps[];
 }
 
 export interface ProjectItemProps {

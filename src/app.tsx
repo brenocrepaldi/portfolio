@@ -4,8 +4,8 @@ import { CSSTransition, TransitionGroup } from "react-transition-group";
 import { Header } from "./components/header/Header";
 import { LandingPage } from "./components/landing-page/LandingPage";
 import { About } from "./components/about/About";
-import { Skills } from "./components/skills/Skills";
 import { Experience } from "./components/experience/Experience";
+import { Skills } from "./components/skills/Skills";
 import { Projects } from "./components/projects/Projects";
 import { Contact } from "./components/contact/Contact";
 
@@ -56,13 +56,13 @@ export function App() {
 								title={content.about.title}
 								description={content.about.description}
 							/>
-							<Skills
-								title={content.skills.title}
-								skillSet={content.skills.skillSet}
-							/>
 							<Experience
 								title={content.experience.title}
 								jobs={content.experience.jobs}
+							/>
+							<Skills
+								title={content.skills.title}
+								skillSet={content.skills.skillSet}
 							/>
 							<Projects
 								title={content.projects.title}

@@ -1,0 +1,87 @@
+/* .experience-container {
+	height: fit-content;
+	padding-bottom: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+}
+
+.job-list {
+	list-style-type: none;
+}
+
+.job-item {
+	position: relative;
+	background-color: var(--light-background-color);
+	padding: 25px;
+	border-radius: 8px;
+	max-width: 1000px;
+}
+
+.job-duration {
+	position: absolute;
+	right: 25px;
+} */
+
+.experience-container {
+	height: fit-content;
+	padding-bottom: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+}
+
+.job-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.job-item {
+	background-color: var(--light-background-color);
+	padding: 20px;
+	border-radius: 8px;
+	max-width: 1000px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px; /* Adjust spacing between items */
+}
+
+.job-duration {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	color: var(--text-color); /* Adjust text color for contrast */
+	font-size: 14px; /* Adjust font size as needed */
+}
+
+.job-title {
+	margin-bottom: 10px;
+}
+
+.job-description {
+	margin-bottom: 15px;
+}
+
+.technology-item {
+	margin-right: 10px; /* Adjust spacing between technology items */
+	display: inline-block; /* Ensure technologies are inline */
+	background-color: var(--secondary-background-color);
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 12px; /* Adjust font size as needed */
+	color: var(--text-color); /* Adjust text color for contrast */
+}
+
+@media (max-width: 768px) {
+	.job-item {
+		padding: 15px;
+	}
+
+	.job-duration {
+		right: 15px;
+		top: 15px;
+	}
+}
