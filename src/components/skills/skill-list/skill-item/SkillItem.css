@@ -9,13 +9,12 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	border: 3px solid var(--shadow);
+	border: none;
 	border-radius: 12px;
 	padding: 0;
 	text-decoration: none;
 	font-weight: bold;
 	position: relative;
-	box-shadow: 4px 4px 0px var(--shadow);
 	overflow: hidden;
 	transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 	height: 130px;
@@ -24,43 +23,23 @@
 }
 
 .button.skill {
+	background-color: transparent;
+}
+
+.button.skill:hover {
 	background-color: var(--light-background-color);
-}
-
-.button.skill::before {
-	content: "";
-	position: absolute;
-	left: 50%;
-	bottom: -150%;
-	width: 300%;
-	height: 300%;
-	border-radius: 50%;
-	transform: translateX(-50%) scale(0);
-	transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
-	z-index: 1;
-}
-
-.button.skill::before {
-	background-color: var(--secondary-color);
-}
-
-.button.skill.claude::before {
-	background-color: #e3d19c;
-}
-
-.button.skill:hover::before {
-	transform: translateX(-50%) scale(1);
+	box-shadow: inset 0px 1.4px 0px #297fb927, 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .button.skill:hover {
 	transform: translate(-4px, -4px);
-	box-shadow: 8px 8px 0px var(--shadow);
+	box-shadow: inset 0px 1.4px 0px #297fb927, 0 4px 8px rgba(0, 0, 0, 0.1);
 	cursor: default;
 }
 
 .button.skill:active {
 	transform: translate(2px, 2px);
-	box-shadow: 2px 2px 0px var(--shadow);
+	box-shadow: inset 0px 1.4px 0px #297fb927, 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .skill-logo {
@@ -94,12 +73,11 @@
 .button.skill:hover .skill-logo {
 	width: 65px;
 	height: 65px;
-	top: 35%;
-	color: var(--background-color);
+	top: 42.5%;
 }
 
 .button.skill:hover .skill-icon {
-	transform: scale(0.9);
+	transform: scale(0.95);
 }
 
 .button-text {
@@ -110,7 +88,6 @@
 	transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 	text-align: center;
 	opacity: 0;
-	transform: translateY(20px);
 	z-index: 2;
 	position: absolute;
 	bottom: 18px;
@@ -120,16 +97,16 @@
 
 .button-text span:first-child {
 	font-size: 13px;
-	font-weight: 500;
+	font-weight: 300;
 	margin-bottom: 2px;
 }
 
 .button-text span:last-child {
 	font-size: 16px;
-	font-weight: bolder;
-	text-transform: uppercase;
+	font-weight: 800;
+	text-transform: capitalize;
 	letter-spacing: 0.8px;
-	color: var(--text-color);
+	color: var(--secondary-color);
 }
 
 .button.skill:hover .button-text {
@@ -138,16 +115,16 @@
 }
 
 .button.skill:hover .button-text {
-	color: var(--background-color);
+	color: var(--secondary-color);
 }
 
 .button.skill:hover .button-text span:last-child {
-	color: var(--background-color);
+	color: var(--secondary-color);
 }
 
 @media (hover: hover) and (pointer: fine) {
 	.button.skill:hover {
-		transform: translate(-4px, -4px);
-		box-shadow: 8px 8px 0px var(--shadow);
+		transform: translate(0px, 0px);
+		box-shadow: inset 0px 1.4px 0px #297fb927, 0 4px 8px rgba(0, 0, 0, 0.1);
 	}
 }
