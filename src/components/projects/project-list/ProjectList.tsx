@@ -14,9 +14,11 @@ export function ProjectList({ projectList }: ProjectListProps) {
 			{projectList.map((project: ProjectItemProps, index: number) => (
 				<ProjectItem
 					index={index}
+					src={project.image}
 					name={project.name}
 					description={project.description}
 					url={project.url}
+					technologyList={project.technologies}
 				/>
 			))}
 		</ul>

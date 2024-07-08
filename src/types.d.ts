@@ -54,9 +54,11 @@ export interface ExperienceProps {
 }
 
 export interface ProjectItemProps {
+	image: string;
 	name: string;
 	description: string;
 	url: string;
+	technologies: string[];
 }
 
 export interface ProjectsProps {

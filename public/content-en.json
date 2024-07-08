@@ -90,14 +90,11 @@
 		"title": "Projects",
 		"projectList": [
 			{
+				"image": "",
 				"name": "Project 1",
 				"description": "A task management application developed with React and Firebase.",
-				"url": "https://github.com/yourusername/project1"
-			},
-			{
-				"name": "Project 2",
-				"description": "An e-commerce platform built with Node.js, Express, and MongoDB.",
-				"url": "https://github.com/yourusername/project2"
+				"url": "https://github.com/yourusername/project1",
+				"technologies": ["JavaScript", "React", "HTML", "CSS"]
 			}
 		]
 	},
