@@ -66,7 +66,7 @@ export function App() {
 							/>
 							<Projects
 								title={content.projects.title}
-								list={content.projects.list}
+								projectList={content.projects.projectList}
 							/>
 							<Contact
 								title={content.contacts.title}

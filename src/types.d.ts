@@ -61,7 +61,7 @@ export interface ProjectItemProps {
 
 export interface ProjectsProps {
 	title: string;
-	list: ProjectItemProps[];
+	projectList: ProjectItemProps[];
 }
 
 export interface ContactsProps {

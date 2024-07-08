@@ -88,7 +88,7 @@
 	},
 	"projects": {
 		"title": "Projetos",
-		"list": [
+		"projectList": [
 			{
 				"name": "Projeto 1",
 				"description": "Um aplicativo de gerenciamento de tarefas desenvolvido com React e Firebase.",
