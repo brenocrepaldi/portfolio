@@ -12,6 +12,8 @@ import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 
 import { SkillListProps } from "../../../../types";
 
+import "./SkillItem.css";
+
 interface SkillItemProps {
 	item: SkillListProps;
 	key: string;
