@@ -61,7 +61,7 @@
 .skill-logo {
 	align-items: center;
 	justify-content: center;
-	border-radius: 50%; /* This creates the circular background */
+	border-radius: 50%;
 }
 
 .skill-icon {
