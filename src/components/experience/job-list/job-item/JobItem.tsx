@@ -1,4 +1,5 @@
 import { JobProps } from "../../../../types";
+import { TechnologyList } from "./technology-list/TechnologyList";
 
 interface JobItemProps {
 	key: number;
@@ -28,13 +29,7 @@ export function JobItem({ key, job }: JobItemProps) {
 						</svg>
 					</h3>
 					<p className="job-description">{job.description}</p>
-					<ul className="technology-list">
-						{job.technologies.map((tech: string, index: number) => (
-							<li key={index} className="technology-item">
-								<p className="technology-text">{tech}</p>
-							</li>
-						))}
-					</ul>
+					<TechnologyList job={job} />
 				</div>
 			</li>
 		</a>
