@@ -1,0 +1,18 @@
+.technology-item {
+	display: flex;
+	align-items: center;
+	border-radius: 9999px;
+	background-color: #3498db29;
+	padding-left: 0.75rem;
+	padding-right: 0.75rem;
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
+	font-size: 0.75rem;
+	font-weight: 500;
+	line-height: 1.25rem;
+}
+
+.technology-text {
+	color: var(--accent-color);
+	font-weight: 500;
+}

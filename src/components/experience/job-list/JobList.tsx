@@ -1,6 +1,8 @@
 import { JobItem } from "./job-item/JobItem";
 
 import { JobProps } from "../../../types";
+
+import "./JobList.css";
 interface JobListProps {
 	jobs: JobProps[];
 }

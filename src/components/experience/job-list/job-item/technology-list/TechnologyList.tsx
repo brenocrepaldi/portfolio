@@ -1,6 +1,8 @@
 import { JobProps } from "../../../../../types";
 import { TechnologyItem } from "./technology-item/TechnologyItem";
 
+import "./TechnologyList.css";
+
 interface TechnologyListProps {
 	job: JobProps;
 }

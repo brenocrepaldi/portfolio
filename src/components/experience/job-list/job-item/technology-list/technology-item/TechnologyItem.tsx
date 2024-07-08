@@ -1,3 +1,5 @@
+import "./TechnologyItem.css";
+
 interface TechnologyItemProps {
 	tech: string;
 	index: number;
