@@ -9,7 +9,7 @@
 			"href": "experience"
 		},
 		{
-			"title": "Conhecimentos",
+			"title": "Habilidades",
 			"href": "skills"
 		},
 		{
@@ -55,33 +55,33 @@
 		"skillSet": {
 			"skillList": [
 				{
-					"name": "React",
-					"icon": "faReact"
+					"name": "react",
+					"icon": "react"
 				},
 
 				{
 					"name": "JavaScript",
-					"icon": "faJs"
+					"icon": "javascript"
 				},
 				{
 					"name": "HTML",
-					"icon": "faHtml5"
+					"icon": "html5"
 				},
 				{
 					"name": "CSS",
-					"icon": "faCss3Alt"
+					"icon": "css3"
 				},
 				{
 					"name": "Node.js",
-					"icon": "faNodeJs"
+					"icon": "nodeJs"
 				},
 				{
 					"name": "Python",
-					"icon": "faPython"
+					"icon": "python"
 				},
 				{
 					"name": "SQL",
-					"icon": "faDatabase"
+					"icon": "database"
 				}
 			]
 		}
