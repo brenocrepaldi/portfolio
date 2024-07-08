@@ -29,16 +29,12 @@
 .button.skill:hover {
 	background-color: var(--light-background-color);
 	box-shadow: inset 0px 1.4px 0px #297fb927, 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.button.skill:hover {
 	transform: translate(-4px, -4px);
-	box-shadow: inset 0px 1.4px 0px #297fb927, 0 4px 8px rgba(0, 0, 0, 0.1);
 	cursor: default;
 }
 
 .button.skill:active {
-	transform: translate(2px, 2px);
+	transform: translate(-4px, -4px);
 	box-shadow: inset 0px 1.4px 0px #297fb927, 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
