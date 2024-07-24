@@ -90,11 +90,69 @@
 		"title": "Projects",
 		"projectList": [
 			{
-				"image": "../src/assets/images/logo.png",
-				"name": "Project 1",
-				"description": "A task management application developed with React and Firebase.",
-				"url": "https://github.com/yourusername/project1",
-				"technologies": ["JavaScript", "React", "HTML", "CSS"]
+				"image": "../src/assets/images/planner.png",
+				"name": "Planner",
+				"description": "A full-stack application that enables users to collaboratively plan trips by inviting friends, selecting destinations and dates, and managing trip details. It utilizes a RESTful API, which was developed as part of the project, to facilitate tasks such as creating trips, managing activities, and sharing information.",
+				"url": "https://github.com/brenocrepaldi/planner-frontend",
+				"technologies": [
+					"ReactJS",
+					"TypeScript",
+					"HTML",
+					"TailWind CSS",
+					"NodeJS",
+					"Prisma",
+					"Fastify"
+				]
+			},
+			{
+				"image": "../src/assets/images/recon.png",
+				"name": "Recon AI",
+				"description": " a sophisticated clothing recommendation system designed to provide users with tailored product suggestions based on their preferences. The project enables users to filter products according to their criteria and select a favorite item. Using advanced algorithms, Recon-IA analyzes the chosen product and calculates its similarity to other items in the database. This results in personalized recommendations that align closely with the user's tastes and preferences.",
+				"url": "https://github.com/brenocrepaldi/recon-ai",
+				"technologies": ["Python", "JavaScript", "HTML", "CSS"]
+			},
+			{
+				"image": "../src/assets/images/notes.png",
+				"name": "Notes",
+				"description": "Versatile application designed to streamline the process of note-taking by offering both automatic audio transcription and manual text input. The application is built with a focus on providing a comprehensive and efficient note management experience.",
+				"url": "https://github.com/brenocrepaldi/audio-notes",
+				"technologies": [
+					"ReactJS",
+					"TypeScript",
+					"HTML",
+					"TailWind CSS",
+					"Vite",
+					"Lucide",
+					"Date-fns",
+					"Sooner"
+				]
+			},
+			{
+				"image": "../src/assets/images/quiz.png",
+				"name": "Quiz",
+				"description": "A innovative educational tool designed to make learning enjoyable and engaging through the use of a fun quiz format. The tool features a series of questions and answers that cover a wide range of topics, making it suitable for users of all ages and knowledge levels.",
+				"url": "https://github.com/brenocrepaldi/quiz",
+				"technologies": ["JavaScript", "HTML", "CSS"]
+			},
+			{
+				"image": "../src/assets/images/airline.png",
+				"name": "Airline Administration System",
+				"description": "A comprehensive administrative backend for an airline company, designed to efficiently manage key aspects of airline operations. This backend project includes various modules for registering and viewing detailed information on aircraft, airports, flights, routes, and manufacturers. It provides a robust and organized solution for effectively managing airline data and streamlining operational processes.",
+				"url": "https://github.com/brenocrepaldi/projeto-integrador-cia",
+				"technologies": [
+					"NodeJS",
+					"TypeScript",
+					"Handlebars",
+					"CSS",
+					"Oracle Database"
+				]
+			},
+			{
+				"image": "../src/assets/images/android.png",
+				"name": "Android",
+				"description": "One of my first major projects, this work involved developing a website with a focus on site structure, code organization, media integration, design principles, and responsive design. The final result demonstrates a well-structured and visually appealing web presence.",
+				"url": "https://github.com/brenocrepaldi/android-page",
+				"technologies": ["HTML", "CSS"]
 			}
 		]
 	},
