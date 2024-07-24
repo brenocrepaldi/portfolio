@@ -1,19 +1,21 @@
-import { NavbarProps } from "../../../types";
+import { NavbarProps } from '../../../types';
 
-import "./Navbar.css";
+import './Navbar.css';
 
 export function Navbar({ navbar }: { navbar: NavbarProps[] }) {
 	const handleScroll = (
 		event: React.MouseEvent<HTMLAnchorElement, MouseEvent>
 	) => {
 		event.preventDefault();
-		const targetId = event.currentTarget.getAttribute("href")!.substring(1);
+		const targetId = event.currentTarget.getAttribute('href')!.substring(1);
 		const targetElement = document.getElementById(targetId);
 
 		if (targetElement) {
+			const block = targetId === 'projects' ? 'start' : 'center';
+
 			targetElement.scrollIntoView({
-				behavior: "smooth",
-				block: "center",
+				behavior: 'smooth',
+				block: block,
 			});
 		}
 	};
