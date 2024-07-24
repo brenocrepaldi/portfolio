@@ -1,8 +1,7 @@
-import { ProjectItem } from "./project-item/ProjectItem";
+import { ProjectItemProps } from '../../../types';
+import { ProjectItem } from './project-item/ProjectItem';
 
-import "./ProjectList.css";
-
-import { ProjectItemProps } from "../../../types";
+import './ProjectList.css';
 
 interface ProjectListProps {
 	projectList: ProjectItemProps[];
@@ -10,7 +9,7 @@ interface ProjectListProps {
 
 export function ProjectList({ projectList }: ProjectListProps) {
 	return (
-		<ul>
+		<ul className="project-list">
 			{projectList.map((project: ProjectItemProps, index: number) => (
 				<ProjectItem
 					index={index}

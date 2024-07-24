@@ -1,5 +1,5 @@
 .projects-container {
-  height: fit-content;
+	height: fit-content;
 	padding-bottom: 200px;
 	display: flex;
 	flex-direction: column;

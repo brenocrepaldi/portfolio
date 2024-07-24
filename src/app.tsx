@@ -1,30 +1,30 @@
-import { useEffect, useState } from "react";
-import { CSSTransition, TransitionGroup } from "react-transition-group";
+import { useEffect, useState } from 'react';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
-import { Header } from "./components/header/Header";
-import { LandingPage } from "./components/landing-page/LandingPage";
-import { About } from "./components/about/About";
-import { Experience } from "./components/experience/Experience";
-import { Skills } from "./components/skills/Skills";
-import { Projects } from "./components/projects/Projects";
-import { Contact } from "./components/contact/Contact";
+import { Header } from './components/header/Header';
+import { LandingPage } from './components/landing-page/LandingPage';
+import { About } from './components/about/About';
+import { Experience } from './components/experience/Experience';
+import { Skills } from './components/skills/Skills';
+import { Projects } from './components/projects/Projects';
+import { Contact } from './components/contact/Contact';
 
-import { ContentProps } from "./types";
+import { ContentProps } from './types';
 
 export function App() {
 	const [content, setContent] = useState<ContentProps | null>(null);
-	const [language, setLanguage] = useState("en");
+	const [language, setLanguage] = useState('en');
 
 	useEffect(() => {
 		const loadContent = async () => {
 			try {
 				const contentFile =
-					language === "pt" ? "/content-pt.json" : "/content-en.json";
+					language === 'pt' ? '/content-pt.json' : '/content-en.json';
 				const response = await fetch(contentFile);
 				const data: ContentProps = await response.json();
 				setContent(data);
 			} catch (error) {
-				console.error("Error loading content:", error);
+				console.error('Error loading content:', error);
 			}
 		};
 		loadContent();

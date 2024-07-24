@@ -90,7 +90,7 @@
 		"title": "Projetos",
 		"projectList": [
 			{
-				"image": "",
+				"image": "../src/assets/images/logo.png",
 				"name": "Project 1",
 				"description": "A task management application developed with React and Firebase.",
 				"url": "https://github.com/yourusername/project1",
