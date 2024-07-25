@@ -16,11 +16,27 @@
 .project-image {
 	width: 200px;
 	height: auto;
+	border: 2px solid #297fb927;
+	border-radius: 5px;
+}
+
+.project-item:hover .project-image {
+	border: 2px solid #1e567b9c;
+}
+
+.project-details {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
 }
 
 .project-name {
 	font-size: 18px;
 	font-weight: 500;
+}
+
+.project-item:hover .project-name {
+	color: var(--secondary-color);
 }
 
 .project-description {

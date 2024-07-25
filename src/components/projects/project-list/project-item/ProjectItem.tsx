@@ -21,7 +21,7 @@ export function ProjectItem({
 		<a href={url} target="_blank">
 			<li className="project-item" key={index}>
 				<img src={src} alt="Image Project" className="project-image" />
-				<div>
+				<div className="project-details">
 					<h3 className="project-name">
 						{name}
 						<svg
