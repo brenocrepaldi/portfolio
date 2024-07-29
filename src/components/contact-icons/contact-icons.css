@@ -1,0 +1,27 @@
+.contact-icons-container {
+	position: fixed;
+	right: 50px;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 17px;
+}
+
+.contact-icon {
+	height: 2em;
+	width: 2em;
+	color: var(--text-light-color);
+	transition: all 0.2s ease-in-out;
+}
+
+.contact-icon:hover {
+	color: var(--text-lighter-color);
+}
+
+.contact-line {
+	height: 100px;
+	width: 1.5px;
+	background-color: var(--text-lighter-color);
+}

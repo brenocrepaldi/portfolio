@@ -7,9 +7,10 @@ import { About } from './components/about/About';
 import { Experience } from './components/experience/Experience';
 import { Skills } from './components/skills/Skills';
 import { Projects } from './components/projects/Projects';
-import { Contact } from './components/contact/Contact';
+import { ContactIcons } from './components/contact-icons/contact-icons';
 
 import { ContentProps } from './types';
+import { Contact } from './components/contact/contact';
 
 export function App() {
 	const [content, setContent] = useState<ContentProps | null>(null);
@@ -67,6 +68,11 @@ export function App() {
 							<Projects
 								title={content.projects.title}
 								projectList={content.projects.projectList}
+							/>
+							<ContactIcons
+								email={content.contacts.email}
+								linkedin={content.contacts.linkedin}
+								github={content.contacts.github}
 							/>
 							<Contact
 								title={content.contacts.title}
