@@ -158,8 +158,21 @@
 	},
 	"contacts": {
 		"title": "Entre em contato",
-		"email": "brenogaia2004@gmail.com",
-		"linkedin": "https://www.linkedin.com/in/brenocrepaldi",
-		"github": "https://github.com/brenocrepaldi"
+		"email": {
+			"title": "E-mail",
+			"content": "brenogaia2004@gmail.com"
+		},
+		"phone": {
+			"title": "Telefone",
+			"content": "+5519974190062"
+		},
+		"linkedin": {
+			"title": "Linkedin",
+			"content": "https://www.linkedin.com/in/brenocrepaldi"
+		},
+		"github": {
+			"title": "GitHub",
+			"content": "https://github.com/brenocrepaldi"
+		}
 	}
 }

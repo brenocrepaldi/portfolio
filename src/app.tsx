@@ -70,13 +70,14 @@ export function App() {
 								projectList={content.projects.projectList}
 							/>
 							<ContactIcons
-								email={content.contacts.email}
-								linkedin={content.contacts.linkedin}
-								github={content.contacts.github}
+								email={content.contacts.email.content}
+								linkedin={content.contacts.linkedin.content}
+								github={content.contacts.github.content}
 							/>
 							<Contact
 								title={content.contacts.title}
 								email={content.contacts.email}
+								phone={content.contacts.phone}
 								linkedin={content.contacts.linkedin}
 								github={content.contacts.github}
 							/>

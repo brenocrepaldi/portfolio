@@ -68,9 +68,22 @@ export interface ProjectsProps {
 
 export interface ContactsProps {
 	title: string;
-	email: string;
-	linkedin: string;
-	github: string;
+	email: {
+		title: string;
+		content: string;
+	};
+	phone: {
+		title: string;
+		content: string;
+	};
+	linkedin: {
+		title: string;
+		content: string;
+	};
+	github: {
+		title: string;
+		content: string;
+	};
 }
 
 export interface ContentProps {
