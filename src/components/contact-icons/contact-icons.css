@@ -5,13 +5,20 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	gap: 17px;
+}
+
+.contact-icon-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	justify-content: center;
 	gap: 17px;
 }
 
 .contact-icon {
-	height: 2em;
-	width: 2em;
+	height: 1.8em;
+	width: 1.8em;
 	color: var(--text-light-color);
 	transition: all 0.2s ease-in-out;
 }
@@ -24,4 +31,13 @@
 	height: 100px;
 	width: 1.5px;
 	background-color: var(--text-lighter-color);
+}
+
+.contact-icons-container {
+	transition: opacity 300ms ease-in-out;
+}
+
+.contact-icons-container.hide {
+	opacity: 0;
+	pointer-events: none;
 }

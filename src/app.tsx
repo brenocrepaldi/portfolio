@@ -76,11 +76,10 @@ export function App() {
 						</main>
 					</CSSTransition>
 				</TransitionGroup>
-				{/* <ContactIcons
-					email={content.contacts.email.content}
-					linkedin={content.contacts.linkedin.content}
-					github={content.contacts.github.content}
-				/> */}
+				<ContactIcons
+					title={content.contacts.title}
+					contactList={content.contacts.contactList}
+				/>
 			</div>
 		);
 	}
