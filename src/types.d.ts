@@ -66,24 +66,15 @@ export interface ProjectsProps {
 	projectList: ProjectItemProps[];
 }
 
+export interface ContactItemProps {
+	title: string;
+	content: string;
+	icon: string;
+}
+
 export interface ContactsProps {
 	title: string;
-	email: {
-		title: string;
-		content: string;
-	};
-	phone: {
-		title: string;
-		content: string;
-	};
-	linkedin: {
-		title: string;
-		content: string;
-	};
-	github: {
-		title: string;
-		content: string;
-	};
+	contactList: ContactItemProps[];
 }
 
 export interface ContentProps {

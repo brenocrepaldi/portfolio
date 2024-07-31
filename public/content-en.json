@@ -158,30 +158,10 @@
 	},
 	"contacts": {
 		"title": "Get in touch",
-		"email": {
-			"title": "E-mail",
-			"content": "brenogaia2004@gmail.com",
-			"icon": "email"
-		},
-		"phone": {
-			"title": "Phone",
-			"content": "+5519974190062",
-			"icon": "phone"
-		},
-		"linkedin": {
-			"title": "Linkedin",
-			"content": "https://www.linkedin.com/in/brenocrepaldi",
-			"icon": "linkedin"
-		},
-		"github": {
-			"title": "GitHub",
-			"content": "https://github.com/brenocrepaldi",
-			"icon": "github"
-		},
 		"contactList": [
 			{
 				"title": "E-mail",
-				"content": "brenogaia2004@gmail.com",
+				"content": "mailto:brenogaia2004@gmail.com",
 				"icon": "email"
 			},
 			{

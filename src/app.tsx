@@ -71,19 +71,16 @@ export function App() {
 							/>
 							<Contact
 								title={content.contacts.title}
-								email={content.contacts.email}
-								phone={content.contacts.phone}
-								linkedin={content.contacts.linkedin}
-								github={content.contacts.github}
+								contactList={content.contacts.contactList}
 							/>
 						</main>
 					</CSSTransition>
 				</TransitionGroup>
-				<ContactIcons
+				{/* <ContactIcons
 					email={content.contacts.email.content}
 					linkedin={content.contacts.linkedin.content}
 					github={content.contacts.github.content}
-				/>
+				/> */}
 			</div>
 		);
 	}
