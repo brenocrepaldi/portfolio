@@ -1,4 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
 	faReact,
 	faHtml5,
@@ -6,13 +6,13 @@ import {
 	faNodeJs,
 	faJs,
 	IconDefinition,
-} from "@fortawesome/free-brands-svg-icons";
-import { faCss3Alt } from "@fortawesome/free-brands-svg-icons";
-import { faDatabase } from "@fortawesome/free-solid-svg-icons";
+} from '@fortawesome/free-brands-svg-icons';
+import { faCss3Alt } from '@fortawesome/free-brands-svg-icons';
+import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 
-import { SkillListProps } from "../../../../types";
+import { SkillListProps } from '../../../../types';
 
-import "./SkillItem.css";
+import './SkillItem.css';
 
 interface SkillItemProps {
 	item: SkillListProps;
@@ -42,7 +42,7 @@ export function SkillItem({ item, key }: SkillItemProps) {
 						<FontAwesomeIcon icon={icons[item.icon]} className="skill-icon" />
 					</div>
 					<div className="button-text">
-						<span>{item.name}</span>
+						<strong>{item.name}</strong>
 					</div>
 				</button>
 			</div>

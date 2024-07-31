@@ -91,18 +91,10 @@
 	right: 0;
 }
 
-.button-text span:first-child {
-	font-size: 13px;
-	font-weight: 300;
-	margin-bottom: 2px;
-}
-
-.button-text span:last-child {
-	font-size: 16px;
-	font-weight: 800;
+.button-text > strong {
+	font-size: 1.2em;
 	text-transform: capitalize;
-	letter-spacing: 0.8px;
-	color: var(--secondary-color);
+	font-family: 'Inter';
 }
 
 .button.skill:hover .button-text {
