@@ -2,6 +2,9 @@ import { useEffect, useState } from 'react';
 import { Navbar } from './navbar/Navbar';
 import { LanguageRadio } from './language-radio/LanguageRadio';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+
 import './Header.css';
 
 interface HeaderProps {
@@ -15,25 +18,21 @@ export function Header({
 	language,
 	onLanguageChange,
 }: HeaderProps) {
-	const [isVisible, setIsVisible] = useState(true);
 	const [lastScrollY, setLastScrollY] = useState(0);
-	const [isScrolledToBottom, setIsScrolledToBottom] = useState(false);
+	const [isMenuVisible, setIsMenuVisible] = useState(false);
+	const [isScrolled, setIsScrolled] = useState(false);
 
 	const handleScroll = () => {
 		const currentScrollY = window.scrollY;
 		const windowHeight = window.innerHeight;
 
-		if (currentScrollY > lastScrollY) {
-			setIsVisible(false);
-		} else {
-			setIsVisible(true);
-		}
+		currentScrollY >= windowHeight / 4
+			? setIsMenuVisible(true)
+			: setIsMenuVisible(false);
 
-		if (currentScrollY >= windowHeight) {
-			setIsScrolledToBottom(true);
-		} else {
-			setIsScrolledToBottom(false);
-		}
+		currentScrollY >= windowHeight / 2
+			? setIsScrolled(true)
+			: setIsScrolled(false);
 
 		setLastScrollY(currentScrollY);
 	};
@@ -43,16 +42,27 @@ export function Header({
 		return () => {
 			window.removeEventListener('scroll', handleScroll);
 		};
-	});
+	}, [lastScrollY]);
+
+	const handleMenuClick = () => {
+		setIsMenuVisible(false);
+	};
 
 	return (
-		<header
-			className={`header ${isVisible ? 'visible' : 'hidden'} ${
-				isScrolledToBottom ? 'scrolled-to-bottom' : ''
-			}`}
-		>
-			<Navbar navbar={navbarItems} />
+		<div>
+			{isMenuVisible && (
+				<div className="menu" onClick={handleMenuClick}>
+					<FontAwesomeIcon icon={faBars} />
+				</div>
+			)}
+			<header
+				className={`header ${isMenuVisible ? 'navbar-hidden' : 'visible'} ${
+					isScrolled ? 'scrolled' : null
+				}`}
+			>
+				<Navbar navbar={navbarItems} />
+			</header>
 			<LanguageRadio language={language} onLanguageChange={onLanguageChange} />
-		</header>
+		</div>
 	);
 }

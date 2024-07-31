@@ -1,4 +1,5 @@
 .radio-inputs {
+	z-index: 101;
 	position: fixed;
 	top: 35px;
 	right: 20px;
