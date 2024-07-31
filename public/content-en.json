@@ -170,14 +170,14 @@
 				"icon": "linkedin"
 			},
 			{
+				"title": "Phone",
+				"content": "https://web.whatsapp.com/send?phone=+5519974190062",
+				"icon": "whatsapp"
+			},
+			{
 				"title": "E-mail",
 				"content": "mailto:brenogaia2004@gmail.com",
 				"icon": "email"
-			},
-			{
-				"title": "Phone",
-				"content": "+5519974190062",
-				"icon": "phone"
 			}
 		]
 	}
