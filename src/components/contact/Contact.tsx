@@ -1,8 +1,8 @@
-import { ContactItem } from './contact-item.tsx/contact-item';
+import { ContactItem } from './contact-item';
 
 import { ContactsProps } from '../../types';
 
-import './contact.css';
+import './css/index.css';
 
 export function Contact({ title, contactList }: ContactsProps) {
 	return (

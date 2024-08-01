@@ -1,8 +1,8 @@
-import { ProjectList } from "./project-list/ProjectList";
+import { ProjectList } from './project-list';
 
-import "./Projects.css";
+import './css/index.css';
 
-import { ProjectsProps } from "../../types";
+import { ProjectsProps } from '../../types';
 
 export function Projects({ title, projectList }: ProjectsProps) {
 	return (

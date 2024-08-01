@@ -1,7 +1,8 @@
-import { SkillList } from "./skill-list/SkillList";
+import { SkillList } from './skill-list';
 
-import { SkillsProps } from "../../types";
-import "./Skills.css";
+import './css/index.css';
+
+import { SkillsProps } from '../../types';
 
 export function Skills({ title, skillSet }: SkillsProps) {
 	return (

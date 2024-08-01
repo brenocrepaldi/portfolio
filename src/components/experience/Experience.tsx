@@ -1,8 +1,8 @@
-import { ExperienceProps } from "../../types";
+import { ExperienceProps } from '../../types';
 
-import { JobList } from "./job-list/JobList";
+import { JobList } from './job-list';
 
-import "./Experience.css";
+import './css/index.css';
 
 export function Experience({ title, jobs }: ExperienceProps) {
 	return (

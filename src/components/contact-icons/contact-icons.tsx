@@ -10,7 +10,7 @@ import {
 
 import { ContactsProps } from '../../types';
 
-import './contact-icons.css';
+import './css/index.css';
 
 interface IconMap {
 	[key: string]: IconDefinition;

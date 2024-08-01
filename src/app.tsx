@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
-import { Header } from './components/header/Header';
-import { LandingPage } from './components/landing-page/LandingPage';
-import { About } from './components/about/About';
-import { Experience } from './components/experience/Experience';
-import { Skills } from './components/skills/Skills';
-import { Projects } from './components/projects/Projects';
+import { Header } from './components/header/header';
+import { HomePage } from './components/home-page/home-page';
+import { About } from './components/about/about';
+import { Experience } from './components/experience/experience';
+import { Skills } from './components/skills/skills';
+import { Projects } from './components/projects/projects';
 import { ContactIcons } from './components/contact-icons/contact-icons';
 
 import { ContentProps } from './types';
@@ -46,12 +46,12 @@ export function App() {
 				<TransitionGroup>
 					<CSSTransition key={language} timeout={500} classNames="fade">
 						<main>
-							<LandingPage
-								title={content.landing.title}
-								name={content.landing.name}
-								subtitle={content.landing.subtitle}
-								resume={content.landing.resume}
-								contact={content.landing.contact}
+							<HomePage
+								title={content.home.title}
+								name={content.home.name}
+								subtitle={content.home.subtitle}
+								resume={content.home.resume}
+								contact={content.home.contact}
 							/>
 							<About
 								title={content.about.title}

@@ -1,6 +1,6 @@
-import { AboutProps } from "../../types";
+import { AboutProps } from '../../types';
 
-import "./About.css"
+import './css/index.css';
 
 export function About({ title, description }: AboutProps) {
 	return (

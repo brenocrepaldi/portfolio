@@ -3,22 +3,22 @@ export interface NavbarProps {
 	href: string;
 }
 
-interface LandingPageResumeProps {
+interface HomePageResumeProps {
 	resumeTitle: string;
 	link: string;
 }
 
-interface LandingPageContactProps {
+interface HomePageContactProps {
 	contactTitle: string;
 	link: string;
 }
 
-export interface LandingPageProps {
+export interface HomePageProps {
 	title: string;
 	name: string;
 	subtitle: string;
-	resume: LandingPageResumeProps;
-	contact: LandingPageContactProps;
+	resume: HomePageResumeProps;
+	contact: HomePageContactProps;
 }
 
 export interface AboutProps {
@@ -79,7 +79,7 @@ export interface ContactsProps {
 
 export interface ContentProps {
 	navbar: NavbarProps[];
-	landing: LandingPageProps;
+	home: HomePageProps;
 	about: AboutProps;
 	skills: SkillsProps;
 	experience: ExperienceProps;

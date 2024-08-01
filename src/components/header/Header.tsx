@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
-import { Navbar } from './navbar/Navbar';
-import { LanguageRadio } from './language-radio/LanguageRadio';
+import { Navbar } from './navbar';
+import { LanguageRadio } from './language-radio';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
-import './Header.css';
+import './css/index.css';
 
 interface HeaderProps {
 	navbarItems: Array<{ title: string; href: string }>;
