@@ -5,12 +5,12 @@ export interface NavbarProps {
 
 interface HomePageResumeProps {
 	resumeTitle: string;
-	link: string;
+	download: string;
 }
 
 interface HomePageContactProps {
 	contactTitle: string;
-	link: string;
+	href: string;
 }
 
 export interface HomePageProps {
@@ -19,6 +19,7 @@ export interface HomePageProps {
 	subtitle: string;
 	resume: HomePageResumeProps;
 	contact: HomePageContactProps;
+	language: string;
 }
 
 export interface AboutProps {

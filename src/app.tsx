@@ -52,6 +52,7 @@ export function App() {
 								subtitle={content.home.subtitle}
 								resume={content.home.resume}
 								contact={content.home.contact}
+								language={language}
 							/>
 							<About
 								title={content.about.title}

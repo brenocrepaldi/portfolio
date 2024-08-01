@@ -1,4 +1,6 @@
 import { HomePageProps } from '../../types';
+import resumePdfEn from '../../assets/resume/Resume-BrenoCrepaldi.pdf';
+import resumePdfPt from '../../assets/resume/Currículo-BrenoCrepaldi.pdf';
 
 import './css/index.css';
 
@@ -8,7 +10,12 @@ export function HomePage({
 	subtitle,
 	resume,
 	contact,
+	language,
 }: HomePageProps) {
+	let hrefResume;
+
+	language === 'pt' ? (hrefResume = resumePdfPt) : (hrefResume = resumePdfEn);
+
 	return (
 		<section id="home" className="home-page-container">
 			<div className="home-page-content">
@@ -18,14 +25,18 @@ export function HomePage({
 					<h2 className="subtitle">{subtitle}</h2>
 				</div>
 				<div className="home-page-links">
-					<a href="#contact" className="contact-animated-button">
+					<a href={contact.href} className="contact-animated-button">
 						<span>{contact.contactTitle}</span>
 						<span></span>
 					</a>
-					<button className="resume-animated-button">
+					<a
+						href={hrefResume}
+						download={resume.download}
+						className="resume-animated-button"
+					>
 						<span>{resume.resumeTitle}</span>
 						<span></span>
-					</button>
+					</a>
 				</div>
 			</div>
 		</section>

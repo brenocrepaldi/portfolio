@@ -27,11 +27,11 @@
 		"subtitle": "Front-End Developer",
 		"resume": {
 			"resumeTitle": "Download my CV",
-			"link": ""
+			"download": "Resume-BrenoCrepaldi.pdf"
 		},
 		"contact": {
 			"contactTitle": "Get in Touch",
-			"link": ""
+			"href": "#contact"
 		}
 	},
 	"about": {
