@@ -7,10 +7,10 @@ import { About } from './components/about/about';
 import { Experience } from './components/experience/experience';
 import { Skills } from './components/skills/skills';
 import { Projects } from './components/projects/projects';
+import { Contact } from './components/contact/contact';
 import { ContactIcons } from './components/contact-icons/contact-icons';
 
 import { ContentProps } from './types';
-import { Contact } from './components/contact/contact';
 
 export function App() {
 	const [content, setContent] = useState<ContentProps | null>(null);
