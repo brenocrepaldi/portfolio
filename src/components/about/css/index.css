@@ -1,13 +1,16 @@
 .about-container {
-	height: fit-content;
-	padding: 50px 0px 200px 0px;
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 200px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	gap: 10px;
+	gap: 40px;
 }
 
-p {
+.about-container > p {
+	padding: 20px;
 	font-size: 1.2em;
 }
