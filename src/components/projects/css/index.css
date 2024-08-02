@@ -54,7 +54,7 @@
 }
 
 .project-item:hover .project-name {
-	color: var(--secondary-color);
+	color: var(--accent-color);
 }
 
 .project-description {

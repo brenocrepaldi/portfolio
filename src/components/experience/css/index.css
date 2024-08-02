@@ -34,7 +34,7 @@
 	right: 20px;
 	top: 20px;
 	font-size: 14px;
-	color: var(--text-lighter-color);
+	color: var(--text-light-color);
 }
 
 .job-details {
@@ -46,6 +46,10 @@
 .job-title {
 	font-size: 18px;
 	font-weight: 500;
+}
+
+.job-item:hover .job-title {
+	color: var(--accent-color);
 }
 
 .job-arrow {
