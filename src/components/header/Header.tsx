@@ -7,8 +7,10 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 import './css/index.css';
 
+import { NavItemsProps } from '../../types';
+
 interface HeaderProps {
-	navbarItems: Array<{ title: string; href: string }>;
+	navbarItems: NavItemsProps[];
 	language: string;
 	onLanguageChange: (lang: string) => void;
 }

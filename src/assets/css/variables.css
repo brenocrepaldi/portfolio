@@ -3,14 +3,14 @@
 	--primary-color: #dde0e1;
 	--secondary-color: #2980b9;
 	--accent-color: #3498db;
-	--background-color: #1f2831;
-	--light-background-color: #232d37;
+	--background-color: #16202c;
+	--light-background-color: #2c3a4b2e;
 	--shadow: #12161bcc;
 	--text-color: #2c2c2c;
-	--text-light-color: #7f8c8d;
-	--text-lighter-color: #9fb1b2;
+	--text-light-color: #94a3b8;
+	--text-lighter-color: #e2e8f0;
 
-	--font-family: "Inter", sans-serif;
+	--font-family: 'Inter', sans-serif;
 	--font-size-lg: 24px;
 	--font-size-md: 16px;
 	--font-size-sm: 12px;

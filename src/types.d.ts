@@ -84,7 +84,7 @@ export interface ContactsProps {
 }
 
 export interface ContentProps {
-	navbar: NavbarProps[];
+	navbar: NavItemsProps[];
 	home: HomePageProps;
 	about: AboutProps;
 	skills: SkillsProps;

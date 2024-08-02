@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
+import { MouseFollowsEvent } from './components/mouse-event';
+
 import { Header } from './components/header/header';
 import { HomePage } from './components/home-page/home-page';
 import { About } from './components/about/about';
@@ -38,6 +40,7 @@ export function App() {
 	if (content) {
 		return (
 			<div className="App">
+				<MouseFollowsEvent />
 				<Header
 					navbarItems={content.navbar}
 					language={language}
