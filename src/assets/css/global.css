@@ -62,6 +62,7 @@ p {
 	background: #555;
 }
 
+/* Selection */
 ::selection {
 	color: var(--text-light-color);
 	background-color: var(--secondary-color);
