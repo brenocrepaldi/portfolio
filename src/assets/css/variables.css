@@ -19,4 +19,9 @@
 	--border-radius: 5px;
 	--box-shadow: 0 4px 6px var(--shadow);
 	--transition-duration: 0.3s;
+
+	--planet-1: #82b0e8;
+	--planet-2: #3777ca;
+	--planet-3: #30445f;
+	--planet-4: #707985;
 }

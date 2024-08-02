@@ -1,8 +1,11 @@
-import { HomePageProps } from '../../types';
+import { OrbitAnimation } from './mackbook-animation/orbit-animation';
+
 import resumePdfEn from '../../assets/resume/Resume-BrenoCrepaldi.pdf';
 import resumePdfPt from '../../assets/resume/Currículo-BrenoCrepaldi.pdf';
 
 import './css/index.css';
+
+import { HomePageProps } from '../../types';
 
 export function HomePage({
 	title,
@@ -39,6 +42,7 @@ export function HomePage({
 					</a>
 				</div>
 			</div>
+			<OrbitAnimation />
 		</section>
 	);
 }
