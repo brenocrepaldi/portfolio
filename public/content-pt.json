@@ -36,7 +36,7 @@
 	},
 	"about": {
 		"title": "Sobre Mim",
-		"description": "Sou um desenvolvedor de software com paixão por criar soluções inovadoras. Tenho experiência em diversas tecnologias e sempre busco aprender mais."
+		"description": "Sou um desenvolvedor de software apaixonado por explorar novas tecnologias e enfrentar projetos inovadores. Sempre estou em busca de expandir minhas habilidades e explorar desafios interessantes. Meu foco é transformar ideias criativas em soluções reais e relevantes. Adoro aprender constantemente e aplicar uma abordagem prática em cada projeto. Seja desenvolvendo algo do zero ou melhorando o que já existe, meu objetivo é contribuir de forma significativa e avançar projetos com dedicação."
 	},
 	"experience": {
 		"title": "Experiência",
@@ -76,12 +76,24 @@
 					"icon": "nodeJs"
 				},
 				{
+					"name": "GitHub",
+					"icon": "gitHub"
+				},
+				{
+					"name": "Git",
+					"icon": "git"
+				},
+				{
 					"name": "Python",
 					"icon": "python"
 				},
 				{
 					"name": "SQL",
-					"icon": "database"
+					"icon": "sql"
+				},
+				{
+					"name": "PostgreSQL",
+					"icon": "postgre"
 				}
 			]
 		}
@@ -98,7 +110,7 @@
 					"ReactJS",
 					"TypeScript",
 					"HTML",
-					"TailWind CSS",
+					"Tailwind CSS",
 					"NodeJS",
 					"Prisma",
 					"Fastify"
@@ -120,7 +132,7 @@
 					"ReactJS",
 					"TypeScript",
 					"HTML",
-					"TailWind CSS",
+					"Tailwind CSS",
 					"Vite",
 					"Lucide",
 					"Date-fns",
@@ -165,12 +177,12 @@
 				"icon": "github"
 			},
 			{
-				"title": "Linkedin",
+				"title": "LinkedIn",
 				"content": "https://www.linkedin.com/in/brenocrepaldi",
 				"icon": "linkedin"
 			},
 			{
-				"title": "Telefone",
+				"title": "WhatsApp",
 				"content": "https://web.whatsapp.com/send?phone=+5519974190062",
 				"icon": "whatsapp"
 			},

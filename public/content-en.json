@@ -36,7 +36,7 @@
 	},
 	"about": {
 		"title": "About Me",
-		"description": "I am a software developer passionate about creating innovative solutions. I have experience with various technologies and always strive to learn more."
+		"description": "I'm a software developer who thrives on exploring new technologies and taking on innovative projects. I’m always eager to expand my skill set and dive into exciting challenges. My work is all about turning fresh ideas into reality and pushing the envelope with creative solutions. I’m passionate about continuous learning and bringing a hands-on approach to every project I tackle. Whether it’s building something from scratch or improving on existing tech, I’m here to make a difference and keep things moving forward."
 	},
 	"experience": {
 		"title": "Experience",
@@ -45,7 +45,7 @@
 				"company": "Espectro LTD",
 				"position": "Front-End Developer",
 				"duration": "May 2024 — Present",
-				"description": "Build, style, and maintain high-quality, responsive web applications. Develop server-side logic and APIs with Node.js to support front-end functionality and optimize performance. Collaborate closely with the development team to implement new features, troubleshoot and debug issues, and enhance the user experience. Write clean, efficient, and well-documented code, and assist in the deployment and monitoring of web applications. This role has provided me with hands-on experience in modern web development practices and has significantly enhanced my skills in creating dynamic digital experiences.",
+				"description": "Build, style, and maintain high-quality, responsive web applications. Develop server-side logic and APIs with Node.js to support front-end functionality and optimize performance. Collaborate closely with the development team to implement new features, troubleshoot and debug issues, and enhance the user experience. Write clean, efficient, and well-documented code, and assist in the deployment and monitoring of web applications. This role has given me hands-on experience in modern web development practices and has significantly enhanced my skills in creating dynamic digital experiences.",
 				"technologies": ["JavaScript", "React", "HTML", "CSS"]
 			}
 		]
@@ -76,12 +76,24 @@
 					"icon": "nodeJs"
 				},
 				{
+					"name": "GitHub",
+					"icon": "gitHub"
+				},
+				{
+					"name": "Git",
+					"icon": "git"
+				},
+				{
 					"name": "Python",
 					"icon": "python"
 				},
 				{
 					"name": "SQL",
-					"icon": "database"
+					"icon": "sql"
+				},
+				{
+					"name": "PostgreSQL",
+					"icon": "postgre"
 				}
 			]
 		}
@@ -98,7 +110,7 @@
 					"ReactJS",
 					"TypeScript",
 					"HTML",
-					"TailWind CSS",
+					"Tailwind CSS",
 					"NodeJS",
 					"Prisma",
 					"Fastify"
@@ -120,7 +132,7 @@
 					"ReactJS",
 					"TypeScript",
 					"HTML",
-					"TailWind CSS",
+					"Tailwind CSS",
 					"Vite",
 					"Lucide",
 					"Date-fns",
@@ -130,7 +142,7 @@
 			{
 				"image": "../src/assets/images/quiz.png",
 				"name": "Quiz",
-				"description": "A innovative educational tool designed to make learning enjoyable and engaging through the use of a fun quiz format. The tool features a series of questions and answers that cover a wide range of topics, making it suitable for users of all ages and knowledge levels.",
+				"description": "An innovative educational tool designed to make learning enjoyable and engaging through the use of a fun quiz format. The tool features a series of questions and answers that cover a wide range of topics, making it suitable for users of all ages and knowledge levels.",
 				"url": "https://github.com/brenocrepaldi/quiz",
 				"technologies": ["JavaScript", "HTML", "CSS"]
 			},
@@ -165,12 +177,12 @@
 				"icon": "github"
 			},
 			{
-				"title": "Linkedin",
+				"title": "LinkedIn",
 				"content": "https://www.linkedin.com/in/brenocrepaldi",
 				"icon": "linkedin"
 			},
 			{
-				"title": "Phone",
+				"title": "WhatsApp",
 				"content": "https://web.whatsapp.com/send?phone=+5519974190062",
 				"icon": "whatsapp"
 			},

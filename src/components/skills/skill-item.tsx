@@ -5,10 +5,12 @@ import {
 	faPython,
 	faNodeJs,
 	faJs,
+	faGitAlt,
+	faGithub,
 	IconDefinition,
 } from '@fortawesome/free-brands-svg-icons';
 import { faCss3Alt } from '@fortawesome/free-brands-svg-icons';
-import { faDatabase } from '@fortawesome/free-solid-svg-icons';
+import { faDatabase, faServer } from '@fortawesome/free-solid-svg-icons';
 
 import { SkillListProps } from '../../types';
 
@@ -27,8 +29,11 @@ const icons: IconMap = {
 	html5: faHtml5,
 	css3: faCss3Alt,
 	nodeJs: faNodeJs,
+	gitHub: faGithub,
+	git: faGitAlt,
 	python: faPython,
-	database: faDatabase,
+	sql: faDatabase,
+	postgre: faServer,
 };
 
 export function SkillItem({ item, key }: SkillItemProps) {
