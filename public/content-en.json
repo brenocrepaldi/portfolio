@@ -107,7 +107,7 @@
 			{
 				"image": "../src/assets/images/recon.png",
 				"name": "Recon AI",
-				"description": " a sophisticated clothing recommendation system designed to provide users with tailored product suggestions based on their preferences. The project enables users to filter products according to their criteria and select a favorite item. Using advanced algorithms, Recon-IA analyzes the chosen product and calculates its similarity to other items in the database. This results in personalized recommendations that align closely with the user's tastes and preferences.",
+				"description": "A sophisticated clothing recommendation system designed to provide users with tailored product suggestions based on their preferences. The project enables users to filter products according to their criteria and select a favorite item. Using advanced algorithms, Recon-IA analyzes the chosen product and calculates its similarity to other items in the database. This results in personalized recommendations that align closely with the user's tastes and preferences.",
 				"url": "https://github.com/brenocrepaldi/recon-ai",
 				"technologies": ["Python", "JavaScript", "HTML", "CSS"]
 			},
