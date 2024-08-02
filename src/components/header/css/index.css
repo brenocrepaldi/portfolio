@@ -46,14 +46,14 @@ header {
 	padding-left: 100px;
 }
 
-.logo {
+.home-ancor {
 	font-size: large;
 	color: var(--secondary-color);
 	font-weight: bold;
 	transition: all 0.3s ease-in-out;
 }
 
-.logo::after {
+.home-ancor::after {
 	content: '';
 	display: block;
 	width: 0;
@@ -63,12 +63,12 @@ header {
 	transition: width 0.5s;
 }
 
-.logo:hover::after {
+.home-ancor:hover::after {
 	width: 100%;
 	transition: width 0.3s;
 }
 
-.logo:hover {
+.home-ancor:hover {
 	color: var(--accent-color);
 }
 

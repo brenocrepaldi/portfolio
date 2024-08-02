@@ -22,7 +22,7 @@ export function Navbar({ navbar, islogoVisible }: NavbarProps) {
 		<nav className="navbar-container">
 			{islogoVisible && (
 				<a href="#home">
-					<span className="logo">Breno Crepaldi</span>
+					<span className="home-ancor">Breno Crepaldi</span>
 				</a>
 			)}
 

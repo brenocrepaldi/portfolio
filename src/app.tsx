@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
+import logo from './assets/images/logo.png';
 import { MouseFollowsEvent } from './components/mouse-event';
-import { OrbitAnimation } from './components/orbit-animation/orbit-animation';
 
 import { Header } from './components/header/header';
 import { HomePage } from './components/home-page/home-page';
@@ -42,7 +42,7 @@ export function App() {
 		return (
 			<div className="App">
 				<MouseFollowsEvent />
-				<OrbitAnimation />
+				<img src={logo} alt="Logo" className="logo" />
 				<Header
 					navbarItems={content.navbar}
 					language={language}
