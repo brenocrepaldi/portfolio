@@ -27,8 +27,7 @@ export function Header({
 		const currentScrollY = window.scrollY;
 		const windowHeight = window.innerHeight;
 
-		setIsLogoVisible(currentScrollY > windowHeight);
-
+		setIsLogoVisible(currentScrollY > windowHeight / 2);
 		setIsMenuVisible(currentScrollY >= windowHeight / 4);
 		setIsScrolled(currentScrollY >= windowHeight / 2);
 
