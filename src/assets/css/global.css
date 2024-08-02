@@ -61,3 +61,8 @@ p {
 ::-webkit-scrollbar-thumb:hover {
 	background: #555;
 }
+
+::selection {
+	color: var(--text-light-color);
+	background-color: var(--secondary-color);
+}
