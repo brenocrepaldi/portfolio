@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 import { MouseFollowsEvent } from './components/mouse-event';
+import { OrbitAnimation } from './components/orbit-animation/orbit-animation';
 
 import { Header } from './components/header/header';
 import { HomePage } from './components/home-page/home-page';
@@ -41,6 +42,7 @@ export function App() {
 		return (
 			<div className="App">
 				<MouseFollowsEvent />
+				<OrbitAnimation />
 				<Header
 					navbarItems={content.navbar}
 					language={language}
