@@ -45,6 +45,7 @@
 
 .contact-item > strong {
 	transition: all 100ms ease-in-out;
+	color: var(--text-light-color);
 }
 
 .contact-icon-container:hover + strong {
