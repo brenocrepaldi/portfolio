@@ -22,8 +22,8 @@ header {
 .menu {
 	visibility: visible;
 	position: fixed;
-	top: 20px;
-	left: 20px;
+	top: 40px;
+	left: 50px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -31,15 +31,40 @@ header {
 	width: 20px;
 	color: var(--text-lighter-color);
 	cursor: pointer;
-	font-size: 1.5em;
+	transition: all 0.2s ease-in-out;
+	font-size: 1.8em;
+}
+
+.menu:hover {
+	color: #9fb1b2a2;
 }
 
 .navbar-container {
 	width: 100%;
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 120px;
+	gap: 100px;
+	padding-left: 100px;
+}
+
+.logo {
+	font-size: large;
+	color: var(--accent-color);
+	font-weight: bold;
+}
+
+.logo::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 1px;
+	background: var(--accent-color);
+	margin-top: -5px;
+	transition: width 0.5s;
+}
+
+.logo:hover::after {
+	width: 100%;
+	transition: width 0.3s;
 }
 
 a {
@@ -109,6 +134,11 @@ a {
 	.navbar-container {
 		flex-direction: column;
 		gap: 20px;
+	}
+
+	.navbar-container a:first-child {
+		position: static; /* Remove a posição absoluta para dispositivos menores */
+		margin-right: 0;
 	}
 
 	.navbar-item {

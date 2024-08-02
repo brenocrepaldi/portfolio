@@ -1,6 +1,11 @@
-export interface NavbarProps {
+interface NavItemsProps {
 	title: string;
 	href: string;
+}
+
+interface NavbarProps {
+	navbar: NavItemsProps[];
+	islogoVisible: boolean;
 }
 
 interface HomePageResumeProps {

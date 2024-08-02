@@ -21,18 +21,16 @@ export function Header({
 	const [lastScrollY, setLastScrollY] = useState(0);
 	const [isMenuVisible, setIsMenuVisible] = useState(false);
 	const [isScrolled, setIsScrolled] = useState(false);
+	const [islogoVisible, setIsLogoVisible] = useState(false);
 
 	const handleScroll = () => {
 		const currentScrollY = window.scrollY;
 		const windowHeight = window.innerHeight;
 
-		currentScrollY >= windowHeight / 4
-			? setIsMenuVisible(true)
-			: setIsMenuVisible(false);
+		setIsLogoVisible(currentScrollY > windowHeight);
 
-		currentScrollY >= windowHeight / 2
-			? setIsScrolled(true)
-			: setIsScrolled(false);
+		setIsMenuVisible(currentScrollY >= windowHeight / 4);
+		setIsScrolled(currentScrollY >= windowHeight / 2);
 
 		setLastScrollY(currentScrollY);
 	};
@@ -57,10 +55,10 @@ export function Header({
 			)}
 			<header
 				className={`header ${isMenuVisible ? 'navbar-hidden' : 'visible'} ${
-					isScrolled ? 'scrolled' : null
+					isScrolled ? 'scrolled' : ''
 				}`}
 			>
-				<Navbar navbar={navbarItems} />
+				<Navbar navbar={navbarItems} islogoVisible={islogoVisible} />
 			</header>
 			<LanguageRadio language={language} onLanguageChange={onLanguageChange} />
 		</div>

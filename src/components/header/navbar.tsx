@@ -1,6 +1,6 @@
 import { NavbarProps } from '../../types';
 
-export function Navbar({ navbar }: { navbar: NavbarProps[] }) {
+export function Navbar({ navbar, islogoVisible }: NavbarProps) {
 	function handleScroll(
 		event: React.MouseEvent<HTMLAnchorElement, MouseEvent>
 	) {
@@ -20,6 +20,12 @@ export function Navbar({ navbar }: { navbar: NavbarProps[] }) {
 
 	return (
 		<nav className="navbar-container">
+			{islogoVisible && (
+				<a href="#home">
+					<span className="logo">Breno Crepaldi</span>
+				</a>
+			)}
+
 			{navbar.map(({ href, title }, index) => (
 				<a key={index} href={`#${href}`} onClick={handleScroll}>
 					<p className="navbar-item">{title}</p>
