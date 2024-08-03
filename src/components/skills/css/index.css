@@ -128,8 +128,10 @@
 	}
 
 	.skills-container > h2 {
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
 		padding-left: 20px;
-		font-size: 1em;
+		font-size: 0.875em;
 	}
 
 	.skills-list {

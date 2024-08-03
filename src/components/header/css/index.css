@@ -136,19 +136,25 @@ a {
 	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 700px) {
 	.navbar-container {
 		display: none;
-		flex-direction: column;
-		gap: 20px;
 	}
 
-	.navbar-container a:first-child {
-		position: static; /* Remove a posição absoluta para dispositivos menores */
-		margin-right: 0;
+	.radio-inputs {
+		position: absolute;
+		top: 1%;
+		right: 2%;
+		padding: 0.25rem;
+		width: 150px;
+		font-size: 0.675em;
 	}
 
-	.navbar-item {
-		font-size: 0.9rem;
+	.radio-inputs .radio .name {
+		padding: 0.2rem;
+	}
+
+	.menu {
+		display: none;
 	}
 }

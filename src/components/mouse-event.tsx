@@ -11,22 +11,34 @@ export function MouseFollowsEvent(): JSX.Element {
 		y: 0,
 	});
 
+	const [isScreenWide, setIsScreenWide] = useState<boolean>(
+		window.innerWidth >= 700
+	);
+
 	useEffect(() => {
 		const handleMouseMove = (event: MouseEvent) => {
 			setMousePosition({ x: event.clientX, y: event.clientY });
 		};
 
+		const handleResize = () => {
+			setIsScreenWide(window.innerWidth >= 700);
+		};
+
 		window.addEventListener('mousemove', handleMouseMove);
+		window.addEventListener('resize', handleResize);
 
 		return () => {
 			window.removeEventListener('mousemove', handleMouseMove);
+			window.removeEventListener('resize', handleResize);
 		};
 	}, []);
 
 	const { x, y } = mousePosition;
-	const backgroundStyle: React.CSSProperties = {
-		background: `radial-gradient(600px at ${x}px ${y}px, rgba(41, 128, 185, 0.15), transparent 80%)`,
-	};
+	const backgroundStyle: React.CSSProperties = isScreenWide
+		? {
+				background: `radial-gradient(600px at ${x}px ${y}px, rgba(41, 128, 185, 0.15), transparent 80%)`,
+		  }
+		: {};
 
 	return <div style={{ ...styles.background, ...backgroundStyle }}></div>;
 }

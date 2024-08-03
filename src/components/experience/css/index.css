@@ -103,13 +103,15 @@
 @media (max-width: 768px) {
 	.experience-container {
 		align-items: flex-start;
-		gap: 10px;
+		gap: 0px;
 		padding-bottom: 80px;
 	}
 
 	.experience-container > h2 {
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
 		padding-left: 20px;
-		font-size: 1em;
+		font-size: 0.875em;
 	}
 
 	.job-item {
