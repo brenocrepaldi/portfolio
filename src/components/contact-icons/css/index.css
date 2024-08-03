@@ -30,7 +30,7 @@
 .contact-line {
 	height: 100px;
 	width: 1.5px;
-	background-color: var(--text-lighter-color);
+	background-color: var(--text-light-color);
 }
 
 .contact-icons-container {
