@@ -22,15 +22,14 @@
 
 .logo {
 	position: absolute;
-	top: 50%;
-	right: -5%;
-	transform: translate(-50%, -50%);
+	top: 0;
+	right: 0;
+	z-index: 10;
 }
 
 @media (max-width: 900px) {
 	.logo {
-		top: 45%;
-		right: -35%;
+		top: 35%;
 		height: 200px;
 		width: auto;
 	}
