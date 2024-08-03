@@ -141,6 +141,7 @@
 
 	.technology-list {
 		flex-wrap: wrap;
+		gap: 8px;
 	}
 
 	.technology-item {
