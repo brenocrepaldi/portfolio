@@ -19,6 +19,7 @@
 	.about-container {
 		align-items: flex-start;
 		gap: 10px;
+		padding-bottom: 80px;
 	}
 
 	.about-container > h2 {

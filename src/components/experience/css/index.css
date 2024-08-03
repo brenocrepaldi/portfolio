@@ -101,12 +101,45 @@
 }
 
 @media (max-width: 768px) {
+	.experience-container {
+		align-items: flex-start;
+		gap: 10px;
+		padding-bottom: 80px;
+	}
+
+	.experience-container > h2 {
+		padding-left: 20px;
+		font-size: 1em;
+	}
+
 	.job-item {
-		padding: 15px;
+		padding: 45px 20px 20px 20px;
+	}
+
+	.job-item:hover {
+		background-color: transparent;
+		box-shadow: none;
 	}
 
 	.job-duration {
-		right: 15px;
-		top: 15px;
+		left: 20px;
+		top: 20px;
+		font-size: 0.875em;
+	}
+
+	.job-title {
+		font-size: 1em;
+	}
+
+	.job-description {
+		font-size: 0.875em;
+	}
+
+	.technology-item {
+		padding: 0.15rem 0.75rem;
+	}
+
+	.technology-text {
+		font-size: 0.875em;
 	}
 }
