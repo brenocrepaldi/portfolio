@@ -41,3 +41,9 @@
 	opacity: 0;
 	pointer-events: none;
 }
+
+@media (max-width: 900px) {
+	.contact-icons-container {
+		display: none;
+	}
+}

@@ -42,9 +42,6 @@
 	height: 130px;
 	width: 150px;
 	cursor: pointer;
-}
-
-.button.skill {
 	background-color: transparent;
 }
 
@@ -76,26 +73,10 @@
 	color: var(--secondary-color);
 }
 
-.skill-logo {
-	align-items: center;
-	justify-content: center;
-	border-radius: 50%;
-}
-
 .skill-icon {
 	width: 54px;
 	height: 54px;
 	transition: all 30ms;
-}
-
-.button.skill:hover .skill-logo {
-	width: 65px;
-	height: 65px;
-	top: 42.5%;
-}
-
-.button.skill:hover .skill-icon {
-	transform: scale(0.95);
 }
 
 .button-text {
@@ -113,28 +94,80 @@
 }
 
 .button-text > strong {
-	font-family: 'Inter';
 	text-transform: capitalize;
 	font-size: 1em;
 	color: var(--text-light-color);
 }
 
+.button.skill:hover .skill-logo {
+	width: 65px;
+	height: 65px;
+	top: 42.5%;
+}
+
+.button.skill:hover .skill-icon {
+	transform: scale(0.95);
+}
+
 .button.skill:hover .button-text {
 	opacity: 1;
 	transform: translateY(0);
-}
-
-.button.skill:hover .button-text {
 	color: var(--secondary-color);
 }
 
-.button.skill:hover .button-text span:last-child {
+.button-text > span:last-child {
+	text-transform: capitalize;
 	color: var(--secondary-color);
 }
 
-@media (hover: hover) and (pointer: fine) {
+@media (max-width: 768px) {
+	.skills-container {
+		align-items: flex-start;
+		gap: 10px;
+		padding-bottom: 80px;
+	}
+
+	.skills-container > h2 {
+		padding-left: 20px;
+		font-size: 1em;
+	}
+
+	.skills-list {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: left;
+	}
+
+	.button.skill {
+		height: 60px;
+		width: 60px;
+	}
+
+	.skill-logo {
+		width: fit-content;
+		height: fit-content;
+	}
+
+	.skill-icon {
+		width: 34px;
+		height: 34px;
+	}
+
+	.button-text {
+		font-size: 0.7em;
+		color: var(--light-background-color);
+		bottom: 0;
+	}
+
 	.button.skill:hover {
-		transform: translate(0px, 0px);
-		box-shadow: inset 0px 1.4px 0px #297fb927, 0 4px 8px rgba(0, 0, 0, 0.1);
+		background-color: transparent;
+		box-shadow: none;
+		transform: none;
+	}
+
+	.button.skill:active {
+		transform: none;
+		box-shadow: none;
 	}
 }

@@ -40,14 +40,14 @@ export function SkillItem({ item, key }: SkillItemProps) {
 	return (
 		<li key={key}>
 			<div className="button-container">
-				<button className="button skill">
+				<div className="button skill">
 					<div className="skill-logo">
 						<FontAwesomeIcon icon={icons[item.icon]} className="skill-icon" />
 					</div>
 					<div className="button-text">
-						<strong>{item.name}</strong>
+						<span>{item.name}</span>
 					</div>
-				</button>
+				</div>
 			</div>
 		</li>
 	);
