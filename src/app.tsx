@@ -11,6 +11,7 @@ import { Experience } from './components/experience/experience';
 import { Skills } from './components/skills/skills';
 import { Projects } from './components/projects/projects';
 import { Contact } from './components/contact/contact';
+import { Footer } from './components/footer/footer';
 import { ContactIcons } from './components/contact-icons/contact-icons';
 
 import { ContentProps } from './types';
@@ -81,6 +82,7 @@ export function App() {
 								title={content.contacts.title}
 								contactList={content.contacts.contactList}
 							/>
+							<Footer text={content.footer.text} />
 						</main>
 					</CSSTransition>
 				</TransitionGroup>

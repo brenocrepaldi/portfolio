@@ -192,5 +192,8 @@
 				"icon": "email"
 			}
 		]
+	},
+	"footer": {
+		"text": "Developed with <strong>Vite</strong> and <strong>CSS</strong>. Coded in <strong>Visual Studio Code</strong> using <strong>React</strong>, deployed with <strong>Vercel</strong>. All text is set in the <strong>Inter</strong> typeface."
 	}
 }

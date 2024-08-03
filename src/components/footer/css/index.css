@@ -1,0 +1,34 @@
+.footer-container {
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	text-align: center;
+}
+
+.footer-container > span {
+	font-size: 0.775em;
+	color: var(--text-light-color);
+}
+
+.footer-container > span > strong {
+	color: var(--text-lighter-color);
+	font-weight: 500;
+}
+
+@media (max-width: 700px) {
+	.footer-container {
+		width: 90dvw;
+		text-align: left;
+		margin-bottom: 30px;
+	}
+
+	.footer-container > span {
+		font-size: 0.875em;
+	}
+}

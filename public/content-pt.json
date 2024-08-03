@@ -192,5 +192,8 @@
 				"icon": "email"
 			}
 		]
+	},
+	"footer": {
+		"text": "Desenvolvido com <strong>Vite</strong> e <strong>CSS</strong>. Projetado no <strong>Visual Studio Code</strong> utilizando <strong>React</strong>, implantado através do <strong>Vercel</strong>. Toda a tipografia está definida na fonte <strong>Inter</strong>."
 	}
 }

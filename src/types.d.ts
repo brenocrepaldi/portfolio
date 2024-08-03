@@ -85,6 +85,10 @@ export interface ContactsProps {
 	contactList: ContactItemProps[];
 }
 
+export interface FooterProps {
+	text: string;
+}
+
 export interface ContentProps {
 	navbar: NavItemsProps[];
 	home: HomePageProps;
@@ -93,4 +97,5 @@ export interface ContentProps {
 	experience: ExperienceProps;
 	projects: ProjectsProps;
 	contacts: ContactsProps;
+	footer: FooterProps;
 }

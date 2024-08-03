@@ -85,7 +85,7 @@
 	.projects-container {
 		align-items: flex-start;
 		gap: 10px;
-		padding-bottom: 80px;
+		padding-bottom: 50px;
 	}
 
 	.projects-container > h2 {
