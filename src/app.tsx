@@ -58,6 +58,8 @@ export function App() {
 								resume={content.home.resume}
 								contact={content.home.contact}
 								language={language}
+								iconTitle={content.contacts.title}
+								contactIconList={content.contacts.contactList}
 							/>
 							<About
 								title={content.about.title}

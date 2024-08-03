@@ -26,3 +26,12 @@
 	right: -5%;
 	transform: translate(-50%, -50%);
 }
+
+@media (max-width: 900px) {
+	.logo {
+		top: 45%;
+		right: -35%;
+		height: 200px;
+		width: auto;
+	}
+}

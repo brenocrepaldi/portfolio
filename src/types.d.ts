@@ -25,6 +25,8 @@ export interface HomePageProps {
 	resume: HomePageResumeProps;
 	contact: HomePageContactProps;
 	language: string;
+	iconTitle: string;
+	contactIconList: ContactItemProps[];
 }
 
 export interface AboutProps {
