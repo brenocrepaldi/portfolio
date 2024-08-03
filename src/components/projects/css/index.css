@@ -1,4 +1,5 @@
 .projects-container {
+	margin: 0 auto;
 	height: fit-content;
 	padding-bottom: 200px;
 	display: flex;
@@ -23,6 +24,7 @@
 	padding: 20px;
 	border-radius: 8px;
 	max-width: 1000px;
+	margin: 0 auto;
 	transition: all 50ms ease-in-out;
 }
 
@@ -80,7 +82,70 @@
 }
 
 @media (max-width: 768px) {
+	.projects-container {
+		align-items: flex-start;
+		gap: 10px;
+		padding-bottom: 80px;
+	}
+
+	.projects-container > h2 {
+		padding-left: 20px;
+		font-size: 1em;
+	}
+
 	.project-item {
-		padding: 15px;
+		width: 100dvw;
+		gap: 10px;
+		padding: 45px 20px 20px 20px;
+		flex-direction: column;
+		align-items: start;
+		position: relative;
+	}
+
+	.project-item:hover {
+		background-color: transparent;
+		box-shadow: none;
+	}
+
+	.project-duration {
+		left: 20px;
+		top: 20px;
+		font-size: 0.875em;
+	}
+
+	.project-name {
+		font-size: 1em;
+		position: absolute;
+		top: 15px;
+		left: 20px;
+	}
+
+	.project-arrow {
+		transition: none;
+		transform: none;
+	}
+
+	.project-item:hover .project-arrow {
+		transform: none;
+	}
+
+	.project-item:focus-visible .project-arrow {
+		transform: none;
+	}
+
+	.project-description {
+		font-size: 0.875em;
+	}
+
+	.technology-list {
+		flex-wrap: wrap;
+	}
+
+	.technology-item {
+		padding: 0.15rem 0.75rem;
+	}
+
+	.technology-text {
+		font-size: 0.875em;
 	}
 }
