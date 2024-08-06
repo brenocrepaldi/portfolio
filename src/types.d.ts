@@ -90,6 +90,7 @@ export interface FooterProps {
 }
 
 export interface ContentProps {
+	srcLogo: string;
 	navbar: NavItemsProps[];
 	home: HomePageProps;
 	about: AboutProps;

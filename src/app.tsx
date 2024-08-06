@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
-import logo from './assets/images/logo.png';
 import { MouseFollowsEvent } from './components/mouse-event';
 
 import { Header } from './components/header/header';
@@ -42,8 +41,8 @@ export function App() {
 	if (content) {
 		return (
 			<div className="App">
+				<img src={content.srcLogo} alt="Logo" className="logo" />
 				<MouseFollowsEvent />
-				<img src={logo} alt="Logo" className="logo" />
 				<Header
 					navbarItems={content.navbar}
 					language={language}
