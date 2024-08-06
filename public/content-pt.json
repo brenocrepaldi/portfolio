@@ -103,7 +103,7 @@
 		"title": "Projetos",
 		"projectList": [
 			{
-				"image": "../src/assets/images/planner.png",
+				"image": "/images/planner.png",
 				"name": "Planner",
 				"description": "Uma aplicação full-stack projetada para facilitar o planejamento colaborativo de viagens. Usuários podem convidar amigos, escolher destinos, definir datas e gerenciar todos os detalhes da viagem em um ambiente intuitivo. Utilizando uma API RESTful desenvolvida especificamente para o projeto, o Planner permite criar viagens, gerenciar atividades e compartilhar informações de forma fluida e integrada.",
 				"url": "https://github.com/brenocrepaldi/planner-frontend",
@@ -118,14 +118,14 @@
 				]
 			},
 			{
-				"image": "../src/assets/images/recon.png",
+				"image": "/images/recon.png",
 				"name": "Recon AI",
 				"description": "Um sistema avançado de recomendação de roupas que oferece sugestões personalizadas com base nas preferências do usuário. Através de um processo de filtragem criteriosa, os usuários podem selecionar seus produtos favoritos. O sistema utiliza algoritmos sofisticados para analisar e comparar os itens escolhidos com outros no banco de dados, gerando recomendações que refletem com precisão os gostos individuais de cada usuário.",
 				"url": "https://github.com/brenocrepaldi/recon-ai",
 				"technologies": ["Python", "JavaScript", "HTML", "CSS"]
 			},
 			{
-				"image": "../src/assets/images/notes.png",
+				"image": "/images/notes.png",
 				"name": "Notes",
 				"description": "Uma aplicação versátil desenvolvida para otimizar a tomada de notas, combinando transcrição automática de áudio com a possibilidade de entrada manual de texto. Com um design voltado para a eficiência e a gestão completa das notas, o aplicativo oferece uma experiência completa e intuitiva para usuários que precisam organizar e acessar suas anotações de maneira prática.",
 				"url": "https://github.com/brenocrepaldi/audio-notes",
@@ -141,14 +141,14 @@
 				]
 			},
 			{
-				"image": "../src/assets/images/quiz.png",
+				"image": "/images/quiz.png",
 				"name": "Quiz",
 				"description": "Uma ferramenta educacional inovadora que transforma o aprendizado em uma experiência divertida e interativa. Através de um formato de quiz, oferece uma série de perguntas e respostas sobre uma ampla gama de tópicos, tornando o aprendizado acessível e interessante para usuários de todas as idades e níveis de conhecimento.",
 				"url": "https://github.com/brenocrepaldi/quiz",
 				"technologies": ["JavaScript", "HTML", "CSS"]
 			},
 			{
-				"image": "../src/assets/images/airline.png",
+				"image": "/images/airline.png",
 				"name": "Sistema de Administração de Companhia Aérea",
 				"description": "Uma solução completa para a administração de uma companhia aérea, permitindo gerenciar com eficiência aeronaves, aeroportos, voos, rotas e fabricantes. Desenvolvido para atender às necessidades operacionais da companhia, o sistema oferece uma interface robusta e organizada para a gestão de dados e a otimização dos processos administrativos.",
 				"url": "https://github.com/brenocrepaldi/projeto-integrador-cia",
@@ -161,7 +161,7 @@
 				]
 			},
 			{
-				"image": "../src/assets/images/android.png",
+				"image": "/images/android.png",
 				"name": "Android",
 				"description": "Um dos meus primeiros projetos. Um site com foco em estruturação, organização de código, integração de mídias e design responsivo. O resultado é um site bem estruturado e visualmente atraente, demonstrando uma abordagem sólida aos princípios de design e boas práticas de desenvolvimento web.",
 				"url": "https://github.com/brenocrepaldi/android-page",
