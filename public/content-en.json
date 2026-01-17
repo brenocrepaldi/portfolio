@@ -103,6 +103,20 @@
 		"title": "Projects",
 		"projectList": [
 			{
+				"image": "/images/nearby.png",
+				"name": "Nearby",
+				"description": "Mobile application designed to connect users with exclusive coupons from nearby businesses, enhancing the local shopping experience. This project was my first experience with React Native, providing hands-on learning in mobile development, API integration, and location-based features. It also involved building responsive, user-focused interfaces and managing backend data efficiently.",
+				"url": "https://github.com/brenocrepaldi/nearby-mobile",
+				"technologies": [
+					"React Native",
+					"TypeScript",
+					"NodeJS",
+					"Express",
+					"Prisma"
+				],
+				"isMobile": true
+			},
+			{
 				"image": "/images/planner.png",
 				"name": "Planner",
 				"description": "A full-stack application that enables users to collaboratively plan trips by inviting friends, selecting destinations and dates, and managing trip details. It utilizes a RESTful API, which was developed as part of the project, to facilitate tasks such as creating trips, managing activities, and sharing information.",

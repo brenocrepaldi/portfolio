@@ -16,6 +16,7 @@ export function ProjectList({ projectList }: ProjectListProps) {
 					description={project.description}
 					url={project.url}
 					technologyList={project.technologies}
+					isMobile={project.isMobile}
 				/>
 			))}
 		</ul>

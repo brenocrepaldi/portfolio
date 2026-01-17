@@ -67,6 +67,7 @@ export interface ProjectItemProps {
 	description: string;
 	url: string;
 	technologies: string[];
+	isMobile?: boolean;
 }
 
 export interface ProjectsProps {

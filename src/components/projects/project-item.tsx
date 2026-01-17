@@ -5,6 +5,7 @@ interface ProjectItemProps {
 	description: string;
 	url: string;
 	technologyList: string[];
+	isMobile?: boolean;
 }
 
 export function ProjectItem({
@@ -14,11 +15,14 @@ export function ProjectItem({
 	description,
 	url,
 	technologyList,
+	isMobile,
 }: ProjectItemProps) {
 	return (
 		<a href={url} target="_blank">
 			<li className="project-item" key={index}>
-				<img src={src} alt="Image Project" className="project-image" />
+				<div className={isMobile ? 'project-image-wrapper mobile' : 'project-image-wrapper'}>
+					<img src={src} alt="Image Project" className="project-image" />
+				</div>
 				<div className="project-details">
 					<h3 className="project-name">
 						{name}
