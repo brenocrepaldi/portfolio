@@ -103,6 +103,19 @@
 		"title": "Projects",
 		"projectList": [
 			{
+				"image":"/images/avalie.png",
+				"name": "Avali-e",
+				"description": "Web platform developed for academic performance evaluation in higher education institutions, allowing students to provide feedback on professors and courses, while faculty and administrators track metrics and reports. The project features interactive dashboards, role-based access control, and secure JWT authentication. It was built focusing on scalable architecture, strong UX, and clear data visualization.",
+				"url": "https://github.com/brenocrepaldi/avalie",
+				"technologies": [
+					"ReactJS",
+					"TypeScript",
+					"Tailwind CSS",
+					"JSON Web Token (JWT)",
+					"Vite"
+				]
+			},
+			{
 				"name": "Authentication and Authorization API",
 				"description": "Authentication and authorization API built with Node.js and TypeScript, focused on secure access control and industry best practices. The project features JWT-based authentication, cookie-based session management, and token invalidation through blacklisting on logout. Data is persisted in MongoDB, along with protected routes, role-based access control, strong data validation, and type safety for improved reliability.",
 				"url": "https://github.com/brenocrepaldi/auth-system",
