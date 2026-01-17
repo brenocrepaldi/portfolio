@@ -103,6 +103,19 @@
 		"title": "Projetos",
 		"projectList": [
 			{
+				"name": "API de Autenticação e Autorização",
+				"description": "API de autenticação e autorização desenvolvida com Node.js e TypeScript, focada em boas práticas de segurança e controle de acesso. O projeto implementa autenticação via JWT, gerenciamento de sessão com cookies e invalidação de tokens por blacklist no logout. Os dados são persistidos em MongoDB, além de contar com rotas protegidas, permissões de administrador, validação de dados e tipagem forte para maior confiabilidade da aplicação.",
+				"url": "https://github.com/brenocrepaldi/auth-system",
+				"technologies": [
+					"NodeJS",
+					"TypeScript",
+					"Cookies",
+					"JSON Web Token (JWT)",
+					"MongoDB"
+				],
+				"isMobile": true
+			},
+			{
 				"image": "/images/nearby.png",
 				"name": "Nearby",
 				"description": "Aplicação mobile com o objetivo de conectar usuários a cupons exclusivos de estabelecimentos próximos, valorizando o comércio local. O projeto marcou meu primeiro contato com React Native, proporcionando experiência prática em desenvolvimento mobile, integração com APIs e uso de recursos de localização. Também trabalhei na construção de interfaces responsivas e focadas na experiência do usuário, além do gerenciamento de dados no backend.",

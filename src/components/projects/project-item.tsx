@@ -20,9 +20,11 @@ export function ProjectItem({
 	return (
 		<a href={url} target="_blank">
 			<li className="project-item" key={index}>
-				<div className={isMobile ? 'project-image-wrapper mobile' : 'project-image-wrapper'}>
-					<img src={src} alt="Image Project" className="project-image" />
-				</div>
+				{src && (
+					<div className={isMobile ? 'project-image-wrapper mobile' : 'project-image-wrapper'}>
+						<img src={src} alt="Image Project" className="project-image" />
+					</div>
+				)}
 				<div className="project-details">
 					<h3 className="project-name">
 						{name}
