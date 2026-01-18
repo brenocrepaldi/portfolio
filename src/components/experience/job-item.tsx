@@ -2,14 +2,13 @@ import { JobProps } from '../../types';
 import { TechnologyList } from './technology-list';
 
 interface JobItemProps {
-	key: number;
 	job: JobProps;
 }
 
-export function JobItem({ key, job }: JobItemProps) {
+export function JobItem({ job }: JobItemProps) {
 	return (
 		<a href="https://www.linkedin.com/company/espectro-ltda-/" target="_blank">
-			<li key={key} className="job-item" role="listitem">
+			<li  className="job-item" role="listitem">
 				<p className="job-duration">{job.duration}</p>
 				<div className="job-details">
 					<h3 className="job-title">
@@ -22,9 +21,9 @@ export function JobItem({ key, job }: JobItemProps) {
 							aria-hidden="true"
 						>
 							<path
-								fill-rule="evenodd"
+								fillRule="evenodd"
 								d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-								clip-rule="evenodd"
+								clipRule="evenodd"
 							></path>
 						</svg>
 					</h3>

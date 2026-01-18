@@ -9,7 +9,9 @@ export function TechnologyList({ job }: TechnologyListProps) {
 	return (
 		<ul className="technology-list">
 			{job.technologies.map((tech: string, index: number) => (
-				<TechnologyItem tech={tech} index={index} />
+				<div key={index}>
+					<TechnologyItem tech={tech} />
+				</div>
 			))}
 		</ul>
 	);

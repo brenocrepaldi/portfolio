@@ -4,11 +4,18 @@ import './css/index.css';
 
 import { SkillsProps } from '../../types';
 
-export function Skills({ title, skillSet }: SkillsProps) {
+export function Skills({ title, categories }: SkillsProps) {
 	return (
 		<section id="skills" className="skills-container">
 			<h2>{title}</h2>
-			<SkillList skillList={skillSet.skillList} />
+			<div className="skills-categories">
+				{categories.map((category, index) => (
+					<div key={index} className="skill-category">
+						<h3 className="category-title">{category.name}</h3>
+						<SkillList skillList={category.skills} />
+					</div>
+				))}
+			</div>
 		</section>
 	);
 }

@@ -1,48 +1,78 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-	faReact,
-	faHtml5,
-	faPython,
-	faNodeJs,
-	faJs,
-	faGitAlt,
-	faGithub,
-	IconDefinition,
-} from '@fortawesome/free-brands-svg-icons';
-import { faCss3Alt } from '@fortawesome/free-brands-svg-icons';
-import { faDatabase, faServer } from '@fortawesome/free-solid-svg-icons';
+	SiReact,
+	SiTypescript,
+	SiJavascript,
+	SiHtml5,
+	SiCss3,
+	SiNodedotjs,
+	SiGithub,
+	SiGit,
+	SiPython,
+	SiPostgresql,
+	SiTailwindcss,
+	SiFlask,
+	SiFastapi,
+	SiMysql,
+	SiSqlite,
+	SiMongodb,
+	SiDocker,
+	SiPostman,
+	SiDatagrip,
+	SiC,
+} from 'react-icons/si';
+import { DiJava } from 'react-icons/di';
+import { VscCode } from 'react-icons/vsc';
+import { IconType } from 'react-icons';
 
 import { SkillListProps } from '../../types';
 
 interface SkillItemProps {
 	item: SkillListProps;
-	key: string;
 }
 
 interface IconMap {
-	[key: string]: IconDefinition;
+	[key: string]: IconType;
 }
 
 const icons: IconMap = {
-	react: faReact,
-	javascript: faJs,
-	html5: faHtml5,
-	css3: faCss3Alt,
-	nodeJs: faNodeJs,
-	gitHub: faGithub,
-	git: faGitAlt,
-	python: faPython,
-	sql: faDatabase,
-	postgre: faServer,
+	react: SiReact,
+	typescript: SiTypescript,
+	javascript: SiJavascript,
+	html5: SiHtml5,
+	css3: SiCss3,
+	tailwindcss: SiTailwindcss,
+	nodeJs: SiNodedotjs,
+	python: SiPython,
+	flask: SiFlask,
+	fastapi: SiFastapi,
+	java: DiJava,
+	c: SiC,
+	postgresql: SiPostgresql,
+	mysql: SiMysql,
+	sqlite: SiSqlite,
+	mongodb: SiMongodb,
+	docker: SiDocker,
+	postman: SiPostman,
+	vscode: VscCode,
+	datagrip: SiDatagrip,
+	git: SiGit,
+	gitHub: SiGithub,
 };
 
-export function SkillItem({ item, key }: SkillItemProps) {
+export function SkillItem({ item }: SkillItemProps) {
+	const Icon = icons[item.icon];
+
+	if (!Icon) {
+		console.warn(`Icon not found for: ${item.icon}`);
+		return null;
+	}
+
 	return (
-		<li key={key}>
+		<li>
 			<div className="button-container">
 				<div className="button skill">
 					<div className="skill-logo">
-						<FontAwesomeIcon icon={icons[item.icon]} className="skill-icon" />
+						<Icon className="skill-icon" />
 					</div>
 					<div className="button-text">
 						<span>{item.name}</span>

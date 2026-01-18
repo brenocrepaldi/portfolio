@@ -71,7 +71,7 @@ export function App() {
 							/>
 							<Skills
 								title={content.skills.title}
-								skillSet={content.skills.skillSet}
+								categories={content.skills.categories}
 							/>
 							<Projects
 								title={content.projects.title}

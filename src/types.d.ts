@@ -39,13 +39,18 @@ export interface SkillListProps {
 	icon: string;
 }
 
+export interface SkillCategory {
+	name: string;
+	skills: SkillListProps[];
+}
+
 export interface SkillSet {
 	skillList: SkillListProps[];
 }
 
 export interface SkillsProps {
 	title: string;
-	skillSet: SkillSet;
+	categories: SkillCategory[];
 }
 
 export interface JobProps {

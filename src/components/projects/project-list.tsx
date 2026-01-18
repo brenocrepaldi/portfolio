@@ -9,15 +9,16 @@ export function ProjectList({ projectList }: ProjectListProps) {
 	return (
 		<ul className="project-list">
 			{projectList.map((project: ProjectItemProps, index: number) => (
-				<ProjectItem
-					index={index}
-					src={project.image}
-					name={project.name}
-					description={project.description}
-					url={project.url}
-					technologyList={project.technologies}
-					isMobile={project.isMobile}
-				/>
+				<div key={index}>
+					<ProjectItem
+						src={project.image}
+						name={project.name}
+						description={project.description}
+						url={project.url}
+						technologyList={project.technologies}
+						isMobile={project.isMobile}
+					/>
+				</div>
 			))}
 		</ul>
 	);

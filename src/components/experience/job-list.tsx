@@ -10,7 +10,9 @@ export function JobList({ jobs }: JobListProps) {
 	return (
 		<ul className="job-list" role="list">
 			{jobs.map((job: JobProps, index: number) => (
-				<JobItem key={index} job={job} />
+				<div key={index}>
+					<JobItem job={job} />
+				</div>
 			))}
 		</ul>
 	);

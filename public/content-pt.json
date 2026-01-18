@@ -53,19 +53,24 @@
 	},
 	"skills": {
 		"title": "Habilidades",
-		"skillSet": {
-			"skillList": [
+		"categories": [
+			{
+				"name": "Linguagens & Frameworks",
+				"skills": [
 				{
-					"name": "react",
+					"name": "React",
 					"icon": "react"
 				},
-
+				{
+					"name": "TypeScript",
+					"icon": "typescript"
+				},
 				{
 					"name": "JavaScript",
 					"icon": "javascript"
 				},
 				{
-					"name": "HTML",
+					"name": "HTML5",
 					"icon": "html5"
 				},
 				{
@@ -73,31 +78,86 @@
 					"icon": "css3"
 				},
 				{
+					"name": "Tailwind CSS",
+					"icon": "tailwindcss"
+				},
+				{
 					"name": "Node.js",
 					"icon": "nodeJs"
-				},
-				{
-					"name": "GitHub",
-					"icon": "gitHub"
-				},
-				{
-					"name": "Git",
-					"icon": "git"
 				},
 				{
 					"name": "Python",
 					"icon": "python"
 				},
 				{
-					"name": "SQL",
-					"icon": "sql"
+					"name": "Flask",
+					"icon": "flask"
 				},
 				{
+					"name": "FastAPI",
+					"icon": "fastapi"
+				},
+				{
+					"name": "Java",
+					"icon": "java"
+				},
+				{
+					"name": "C",
+					"icon": "c"
+				}
+			]
+		},
+		{
+			"name": "Bancos de Dados",
+			"skills": [
+				{
 					"name": "PostgreSQL",
-					"icon": "postgre"
+					"icon": "postgresql"
+				},
+				{
+					"name": "MySQL",
+					"icon": "mysql"
+				},
+				{
+					"name": "SQLite",
+					"icon": "sqlite"
+				},
+				{
+					"name": "MongoDB",
+					"icon": "mongodb"
+				}
+			]
+		},
+		{
+			"name": "Ferramentas & Plataformas",
+			"skills": [
+				{
+					"name": "Docker",
+					"icon": "docker"
+				},
+				{
+					"name": "Postman",
+					"icon": "postman"
+				},
+				{
+					"name": "VS Code",
+					"icon": "vscode"
+				},
+				{
+					"name": "DataGrip",
+					"icon": "datagrip"
+				},
+				{
+					"name": "Git",
+					"icon": "git"
+				},
+				{
+					"name": "GitHub",
+					"icon": "gitHub"
 				}
 			]
 		}
+	]
 	},
 	"projects": {
 		"title": "Projetos",

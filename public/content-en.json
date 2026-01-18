@@ -53,51 +53,111 @@
 	},
 	"skills": {
 		"title": "Skills",
-		"skillSet": {
-			"skillList": [
-				{
-					"name": "react",
-					"icon": "react"
-				},
-
-				{
-					"name": "JavaScript",
-					"icon": "javascript"
-				},
-				{
-					"name": "HTML",
-					"icon": "html5"
-				},
-				{
-					"name": "CSS",
-					"icon": "css3"
-				},
-				{
-					"name": "Node.js",
-					"icon": "nodeJs"
-				},
-				{
-					"name": "GitHub",
-					"icon": "gitHub"
-				},
-				{
-					"name": "Git",
-					"icon": "git"
-				},
-				{
-					"name": "Python",
-					"icon": "python"
-				},
-				{
-					"name": "SQL",
-					"icon": "sql"
-				},
-				{
-					"name": "PostgreSQL",
-					"icon": "postgre"
-				}
-			]
-		}
+		"categories": [
+			{
+				"name": "Languages & Frameworks",
+				"skills": [
+					{
+						"name": "React",
+						"icon": "react"
+					},
+					{
+						"name": "TypeScript",
+						"icon": "typescript"
+					},
+					{
+						"name": "JavaScript",
+						"icon": "javascript"
+					},
+					{
+						"name": "HTML5",
+						"icon": "html5"
+					},
+					{
+						"name": "CSS",
+						"icon": "css3"
+					},
+					{
+						"name": "Tailwind CSS",
+						"icon": "tailwindcss"
+					},
+					{
+						"name": "Node.js",
+						"icon": "nodeJs"
+					},
+					{
+						"name": "Python",
+						"icon": "python"
+					},
+					{
+						"name": "Flask",
+						"icon": "flask"
+					},
+					{
+						"name": "FastAPI",
+						"icon": "fastapi"
+					},
+					{
+						"name": "Java",
+						"icon": "java"
+					},
+					{
+						"name": "C",
+						"icon": "c"
+					}
+				]
+			},
+			{
+				"name": "Databases",
+				"skills": [
+					{
+						"name": "PostgreSQL",
+						"icon": "postgresql"
+					},
+					{
+						"name": "MySQL",
+						"icon": "mysql"
+					},
+					{
+						"name": "SQLite",
+						"icon": "sqlite"
+					},
+					{
+						"name": "MongoDB",
+						"icon": "mongodb"
+					}
+				]
+			},
+			{
+				"name": "Tools & Platforms",
+				"skills": [
+					{
+						"name": "Docker",
+						"icon": "docker"
+					},
+					{
+						"name": "Postman",
+						"icon": "postman"
+					},
+					{
+						"name": "VS Code",
+						"icon": "vscode"
+					},
+					{
+						"name": "DataGrip",
+						"icon": "datagrip"
+					},
+					{
+						"name": "Git",
+						"icon": "git"
+					},
+					{
+						"name": "GitHub",
+						"icon": "gitHub"
+					}
+				]
+			}
+		]
 	},
 	"projects": {
 		"title": "Projects",
