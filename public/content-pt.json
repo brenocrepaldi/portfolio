@@ -57,148 +57,138 @@
 			{
 				"name": "Linguagens & Frameworks",
 				"skills": [
-				{
-					"name": "React",
-					"icon": "react"
-				},
-				{
-					"name": "TypeScript",
-					"icon": "typescript"
-				},
-				{
-					"name": "JavaScript",
-					"icon": "javascript"
-				},
-				{
-					"name": "HTML5",
-					"icon": "html5"
-				},
-				{
-					"name": "CSS",
-					"icon": "css3"
-				},
-				{
-					"name": "Tailwind CSS",
-					"icon": "tailwindcss"
-				},
-				{
-					"name": "Node.js",
-					"icon": "nodeJs"
-				},
-				{
-					"name": "Python",
-					"icon": "python"
-				},
-				{
-					"name": "Flask",
-					"icon": "flask"
-				},
-				{
-					"name": "FastAPI",
-					"icon": "fastapi"
-				},
-				{
-					"name": "Java",
-					"icon": "java"
-				},
-				{
-					"name": "C",
-					"icon": "c"
-				}
-			]
-		},
-		{
-			"name": "Bancos de Dados",
-			"skills": [
-				{
-					"name": "PostgreSQL",
-					"icon": "postgresql"
-				},
-				{
-					"name": "MySQL",
-					"icon": "mysql"
-				},
-				{
-					"name": "SQLite",
-					"icon": "sqlite"
-				},
-				{
-					"name": "MongoDB",
-					"icon": "mongodb"
-				}
-			]
-		},
-		{
-			"name": "Ferramentas & Plataformas",
-			"skills": [
-				{
-					"name": "Docker",
-					"icon": "docker"
-				},
-				{
-					"name": "Postman",
-					"icon": "postman"
-				},
-				{
-					"name": "VS Code",
-					"icon": "vscode"
-				},
-				{
-					"name": "DataGrip",
-					"icon": "datagrip"
-				},
-				{
-					"name": "Git",
-					"icon": "git"
-				},
-				{
-					"name": "GitHub",
-					"icon": "gitHub"
-				}
-			]
-		}
-	]
+					{
+						"name": "React",
+						"icon": "react"
+					},
+					{
+						"name": "TypeScript",
+						"icon": "typescript"
+					},
+					{
+						"name": "JavaScript",
+						"icon": "javascript"
+					},
+					{
+						"name": "HTML5",
+						"icon": "html5"
+					},
+					{
+						"name": "CSS",
+						"icon": "css3"
+					},
+					{
+						"name": "Tailwind CSS",
+						"icon": "tailwindcss"
+					},
+					{
+						"name": "Node.js",
+						"icon": "nodeJs"
+					},
+					{
+						"name": "Python",
+						"icon": "python"
+					},
+					{
+						"name": "Flask",
+						"icon": "flask"
+					},
+					{
+						"name": "FastAPI",
+						"icon": "fastapi"
+					},
+					{
+						"name": "Java",
+						"icon": "java"
+					},
+					{
+						"name": "C",
+						"icon": "c"
+					}
+				]
+			},
+			{
+				"name": "Bancos de Dados",
+				"skills": [
+					{
+						"name": "PostgreSQL",
+						"icon": "postgresql"
+					},
+					{
+						"name": "MySQL",
+						"icon": "mysql"
+					},
+					{
+						"name": "SQLite",
+						"icon": "sqlite"
+					},
+					{
+						"name": "MongoDB",
+						"icon": "mongodb"
+					}
+				]
+			},
+			{
+				"name": "Ferramentas & Plataformas",
+				"skills": [
+					{
+						"name": "Docker",
+						"icon": "docker"
+					},
+					{
+						"name": "Postman",
+						"icon": "postman"
+					},
+					{
+						"name": "VS Code",
+						"icon": "vscode"
+					},
+					{
+						"name": "DataGrip",
+						"icon": "datagrip"
+					},
+					{
+						"name": "Git",
+						"icon": "git"
+					},
+					{
+						"name": "GitHub",
+						"icon": "gitHub"
+					}
+				]
+			}
+		]
 	},
 	"projects": {
 		"title": "Projetos",
 		"projectList": [
 			{
-				"image":"/images/avalie.png",
+				"image": "/images/mennu.png",
+				"name": "Mennu App",
+				"description": "Plataforma de cardápio digital desenvolvida para modernizar a experiência de restaurantes, permitindo que clientes naveguem pelo menu, gerenciem pedidos e interajam com o estabelecimento de forma intuitiva. O projeto foi construído com React, TypeScript e TailwindCSS, com foco em design mobile-first, performance e experiência do usuário. Inclui gerenciamento de estado com Zustand, animações suaves e uma arquitetura organizada para fácil manutenção e escalabilidade.",
+				"url": "https://github.com/brenocrepaldi/mennu-client-frontend",
+				"technologies": ["ReactJS", "TypeScript", "Tailwind CSS", "Zustand", "Vite"],
+				"isMobile": true
+			},
+			{
+				"image": "/images/avalie.png",
 				"name": "Avali-e",
 				"description": "Plataforma web desenvolvida para avaliação acadêmica em instituições de ensino superior, permitindo que alunos avaliem professores e disciplinas, enquanto docentes e gestores acompanham métricas e relatórios. O projeto conta com dashboards interativos, controle de acesso por níveis e autenticação segura via JWT. Foi desenvolvido com foco em arquitetura escalável, boa experiência do usuário e visualização clara de dados educacionais.",
 				"url": "https://github.com/brenocrepaldi/avalie",
-				"technologies": [
-					"ReactJS",
-					"TypeScript",
-					"Tailwind CSS",
-					"JSON Web Token (JWT)",
-					"Vite"
-				]
+				"technologies": ["ReactJS", "TypeScript", "Tailwind CSS", "JSON Web Token (JWT)", "Vite"]
 			},
 			{
 				"name": "API de Autenticação e Autorização",
 				"description": "API de autenticação e autorização desenvolvida com Node.js e TypeScript, focada em boas práticas de segurança e controle de acesso. O projeto implementa autenticação via JWT, gerenciamento de sessão com cookies e invalidação de tokens por blacklist no logout. Os dados são persistidos em MongoDB, além de contar com rotas protegidas, permissões de administrador, validação de dados e tipagem forte para maior confiabilidade da aplicação.",
 				"url": "https://github.com/brenocrepaldi/auth-system",
-				"technologies": [
-					"NodeJS",
-					"TypeScript",
-					"Cookies",
-					"JSON Web Token (JWT)",
-					"MongoDB"
-				]
+				"technologies": ["NodeJS", "TypeScript", "Cookies", "JSON Web Token (JWT)", "MongoDB"]
 			},
 			{
 				"image": "/images/nearby.png",
 				"name": "Nearby",
 				"description": "Aplicação mobile com o objetivo de conectar usuários a cupons exclusivos de estabelecimentos próximos, valorizando o comércio local. O projeto marcou meu primeiro contato com React Native, proporcionando experiência prática em desenvolvimento mobile, integração com APIs e uso de recursos de localização. Também trabalhei na construção de interfaces responsivas e focadas na experiência do usuário, além do gerenciamento de dados no backend.",
 				"url": "https://github.com/brenocrepaldi/nearby-mobile",
-				"technologies": [
-					"React Native",
-					"TypeScript",
-					"NodeJS",
-					"Express",
-					"Prisma"
-				],
+				"technologies": ["React Native", "TypeScript", "NodeJS", "Express", "Prisma"],
 				"isMobile": true
 			},
 			{
@@ -251,13 +241,7 @@
 				"name": "Sistema de Administração de Companhia Aérea",
 				"description": "Uma solução completa para a administração de uma companhia aérea, permitindo gerenciar com eficiência aeronaves, aeroportos, voos, rotas e fabricantes. Desenvolvido para atender às necessidades operacionais da companhia, o sistema oferece uma interface robusta e organizada para a gestão de dados e a otimização dos processos administrativos.",
 				"url": "https://github.com/brenocrepaldi/projeto-integrador-cia",
-				"technologies": [
-					"NodeJS",
-					"TypeScript",
-					"Handlebars",
-					"CSS",
-					"Oracle Database"
-				]
+				"technologies": ["NodeJS", "TypeScript", "Handlebars", "CSS", "Oracle Database"]
 			},
 			{
 				"image": "/images/android.png",

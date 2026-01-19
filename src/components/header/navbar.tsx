@@ -9,7 +9,7 @@ export function Navbar({ navbar, islogoVisible }: NavbarProps) {
 		const targetElement = document.getElementById(targetId);
 
 		if (targetElement) {
-			const block = targetId === 'projects' ? 'start' : 'center';
+			const block = (targetId === 'projects' || targetId === 'skills') ? 'start' : 'center';
 
 			targetElement.scrollIntoView({
 				behavior: 'smooth',

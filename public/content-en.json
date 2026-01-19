@@ -163,42 +163,32 @@
 		"title": "Projects",
 		"projectList": [
 			{
-				"image":"/images/avalie.png",
+				"image": "/images/mennu.png",
+				"name": "Mennu App",
+				"description": "Digital menu platform developed to modernize the restaurant experience, allowing customers to browse menus, manage orders, and interact with restaurants in an intuitive way. Built with React, TypeScript, and TailwindCSS, the project focuses on mobile-first design, performance, and user experience. It features state management with Zustand, smooth animations, and a well-structured architecture for scalability and maintainability.",
+				"url": "https://github.com/brenocrepaldi/mennu-client-frontend",
+				"technologies": ["ReactJS", "TypeScript", "Tailwind CSS", "Zustand", "Vite"],
+				"isMobile": true
+			},
+			{
+				"image": "/images/avalie.png",
 				"name": "Avali-e",
 				"description": "Web platform developed for academic performance evaluation in higher education institutions, allowing students to provide feedback on professors and courses, while faculty and administrators track metrics and reports. The project features interactive dashboards, role-based access control, and secure JWT authentication. It was built focusing on scalable architecture, strong UX, and clear data visualization.",
 				"url": "https://github.com/brenocrepaldi/avalie",
-				"technologies": [
-					"ReactJS",
-					"TypeScript",
-					"Tailwind CSS",
-					"JSON Web Token (JWT)",
-					"Vite"
-				]
+				"technologies": ["ReactJS", "TypeScript", "Tailwind CSS", "JSON Web Token (JWT)", "Vite"]
 			},
 			{
 				"name": "Authentication and Authorization API",
 				"description": "Authentication and authorization API built with Node.js and TypeScript, focused on secure access control and industry best practices. The project features JWT-based authentication, cookie-based session management, and token invalidation through blacklisting on logout. Data is persisted in MongoDB, along with protected routes, role-based access control, strong data validation, and type safety for improved reliability.",
 				"url": "https://github.com/brenocrepaldi/auth-system",
-				"technologies": [
-					"NodeJS",
-					"TypeScript",
-					"Cookies",
-					"JSON Web Token (JWT)",
-					"MongoDB"
-				]
+				"technologies": ["NodeJS", "TypeScript", "Cookies", "JSON Web Token (JWT)", "MongoDB"]
 			},
 			{
 				"image": "/images/nearby.png",
 				"name": "Nearby",
 				"description": "Mobile application designed to connect users with exclusive coupons from nearby businesses, enhancing the local shopping experience. This project was my first experience with React Native, providing hands-on learning in mobile development, API integration, and location-based features. It also involved building responsive, user-focused interfaces and managing backend data efficiently.",
 				"url": "https://github.com/brenocrepaldi/nearby-mobile",
-				"technologies": [
-					"React Native",
-					"TypeScript",
-					"NodeJS",
-					"Express",
-					"Prisma"
-				],
+				"technologies": ["React Native", "TypeScript", "NodeJS", "Express", "Prisma"],
 				"isMobile": true
 			},
 			{
@@ -251,13 +241,7 @@
 				"name": "Airline Administration System",
 				"description": "A comprehensive administrative backend for an airline company, designed to efficiently manage key aspects of airline operations. This backend project includes various modules for registering and viewing detailed information on aircraft, airports, flights, routes, and manufacturers. It provides a robust and organized solution for effectively managing airline data and streamlining operational processes.",
 				"url": "https://github.com/brenocrepaldi/projeto-integrador-cia",
-				"technologies": [
-					"NodeJS",
-					"TypeScript",
-					"Handlebars",
-					"CSS",
-					"Oracle Database"
-				]
+				"technologies": ["NodeJS", "TypeScript", "Handlebars", "CSS", "Oracle Database"]
 			},
 			{
 				"image": "/images/android.png",

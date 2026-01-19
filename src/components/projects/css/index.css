@@ -56,7 +56,7 @@
 }
 
 .project-image-wrapper.mobile .project-image {
-	width: 125px;
+	width: 100px;
 	height: auto;
 	border: 2px solid #297fb927;
 	border-radius: 5px;
@@ -129,6 +129,11 @@
 	.project-item:hover {
 		background-color: transparent;
 		box-shadow: none;
+	}
+
+	.project-image-wrapper.mobile {
+		padding: 20px 0;
+		margin-left: -50px;
 	}
 
 	.project-duration {
