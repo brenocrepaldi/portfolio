@@ -5,7 +5,7 @@ interface MousePosition {
 	y: number;
 }
 
-export function MouseFollowsEvent(): JSX.Element {
+export function MouseFollowsEvent(): React.JSX.Element {
 	const [mousePosition, setMousePosition] = useState<MousePosition>({
 		x: 0,
 		y: 0,
